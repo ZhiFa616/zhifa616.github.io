@@ -1,8 +1,8 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://zhifa616.github.io/Valaxy/',
-  base: '/Valaxy/',
+  url: 'https://zhifa616.github.io/',
+base: '/',
   lang: 'zh-CN',
   title: 'RU-CCCP',
   author: {

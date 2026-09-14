@@ -15,16 +15,13 @@ const safelist = [
 
 export default defineValaxyConfig<ThemeUserConfig>({
   theme: 'sakura',
-
-  // 👇 关键：部署在子路径 /Valaxy/ 下，必须在这里配置 Vite 的 base（上次漏了它，导致主题丢失）
   vite: {
-    base: '/Valaxy/',
+    base: '/', // 切根域名：由 '/Valaxy/' 改为 '/'
   },
-
   themeConfig: {
     hero: {
       title: '欢迎来到隙间互联官网',
-      motto: '一个免费分享Minecraft整合包的小站',
+      motto: '一个免费分享 Minecraft 整合包的小站',
       urls: [
         'https://videotourl.com/videos/1789237226221-ae5c6b18-f38e-4ee4-929c-2317bc820e42.mp4',
       ],
@@ -34,7 +31,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
       { icon: 'i-line-md-folder-twotone', text: '分类', link: '/categories' },
       { icon: 'i-fa-archive', text: '归档', link: '/archives' },
       { icon: 'i-fa-film', text: '番剧', link: 'https://www.yhdz.one/', target: '_blank' },
-      { icon: 'i-ri-qq-fill', text: '加入官方Q群', link: 'https://qm.qq.com/q/IfDQEtfkk4', target: '_blank' },
+      { icon: 'i-ri-qq-fill', text: '加入官方 Q 群', link: 'https://qm.qq.com/q/IfDQEtfkk4', target: '_blank' },
       { icon: 'i-fa-leaf', text: '关于', link: '/posts/about' },
       { icon: 'i-fa-hand-holding-usd', text: '打赏', link: 'https://picui.ogmua.cn/s1/2026/09/13/6aa5ad8e71063.webp', target: '_blank' },
       { icon: 'i-ri-customer-service-2-fill', text: '联系开发者', link: 'https://m.debox.pro/card?id=tjdcyuj2&invite_code=tjdcyuj2', target: '_blank' },
@@ -48,7 +45,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
       autoHide: ['home'],
     },
     notice: {
-      message: '90G整合包合集需加入我们的官方Q群获取！',
+      message: '90G 整合包合集需加入我们的官方 Q 群获取！',
     },
   },
   unocss: { safelist },

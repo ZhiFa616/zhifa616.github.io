@@ -16,6 +16,7 @@
     "valaxy-theme-sakura": "latest"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vue": "^3.5.42"
   }
 }

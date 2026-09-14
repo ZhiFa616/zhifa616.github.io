@@ -269,7 +269,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    '../node_modules/.pnpm/valaxy@1.0.0-rc.9_@babel+pa_fd30fd20dfe228c6347fc82435f6c1d5/node_modules/valaxy/client/pages/[...path].vue': {
+    '../node_modules/.pnpm/valaxy@1.0.0-rc.9_@babel+pa_a0fc55172b4eeb2ae881ba95a7e93176/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:

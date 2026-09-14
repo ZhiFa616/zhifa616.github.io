@@ -15,17 +15,20 @@ const safelist = [
 
 export default defineValaxyConfig<ThemeUserConfig>({
   theme: 'sakura',
+
+  // 👇 关键：部署在子路径 /Valaxy/ 下，必须在这里配置 Vite 的 base（上次漏了它，导致主题丢失）
+  vite: {
+    base: '/Valaxy/',
+  },
+
   themeConfig: {
     hero: {
-      // 中间那行大字
       title: '欢迎来到隙间互联官网',
-      // 大字下面的小字
       motto: '一个免费分享Minecraft整合包的小站',
       urls: [
         'https://videotourl.com/videos/1789237226221-ae5c6b18-f38e-4ee4-929c-2317bc820e42.mp4',
       ],
     },
-    // 👇 顶部导航栏
     navbar: [
       { icon: 'i-ri-home-line', text: '首页', link: '/' },
       { icon: 'i-line-md-folder-twotone', text: '分类', link: '/categories' },
@@ -37,7 +40,6 @@ export default defineValaxyConfig<ThemeUserConfig>({
       { icon: 'i-ri-customer-service-2-fill', text: '联系开发者', link: 'https://m.debox.pro/card?id=tjdcyuj2&invite_code=tjdcyuj2', target: '_blank' },
     ],
     navbarOptions: {
-      // 左上角标题
       title: '隙间互联',
       subTitle: '',
       offset: 0,
@@ -45,7 +47,6 @@ export default defineValaxyConfig<ThemeUserConfig>({
       showMarker: false,
       autoHide: ['home'],
     },
-    // 👇 公告栏
     notice: {
       message: '90G整合包合集需加入我们的官方Q群获取！',
     },

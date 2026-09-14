@@ -129,6 +129,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/FTZX': RouteRecordInfo<
+      '/posts/FTZX',
+      '/posts/FTZX',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/guanfang-qunzu': RouteRecordInfo<
       '/posts/guanfang-qunzu',
       '/posts/guanfang-qunzu',
@@ -181,6 +188,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/modpack-one': RouteRecordInfo<
       '/posts/modpack-one',
       '/posts/modpack-one',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/MusicFree': RouteRecordInfo<
+      '/posts/MusicFree',
+      '/posts/MusicFree',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -373,6 +387,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/FTZX.md': {
+      routes:
+        | '/posts/FTZX'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/guanfang-qunzu.md': {
       routes:
         | '/posts/guanfang-qunzu'
@@ -432,6 +454,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/modpack-one.md': {
       routes:
         | '/posts/modpack-one'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/MusicFree.md': {
+      routes:
+        | '/posts/MusicFree'
       views:
         | never
       pathParamNames:

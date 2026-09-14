@@ -1,1 +1,20 @@
+/* styles/index.scss */
+
+/* 1. 去掉头像右下角小徽标 */
+.site-author-status {
+  display: none !important;
+}
+
+/* 2. 侧边栏导航文字改为亮黄色 */
+.sakura-sidebar-link-item,
+.sakura-sidebar-link-items a,
+.sakura-sidebar-link-items .sakura-sidebar-link-item {
+  color: #FFD700 !important; /* Gold - 亮黄色 */
+}
+
+/* 鼠标悬停时更亮（可选） */
+.sakura-sidebar-link-item:hover,
+.sakura-sidebar-link-items a:hover {
+  color: #FFFFE0 !important; /* LightYellow - 淡黄色 */
+}
 // you can custom css here

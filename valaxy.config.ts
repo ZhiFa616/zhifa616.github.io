@@ -44,6 +44,21 @@ export default defineValaxyConfig<ThemeUserConfig>({
       showMarker: false,
       autoHide: ['home'],
     },
+    // 新增：显式定义移动端侧边栏，确保手机端抽屉菜单包含全部导航项
+    sidebar: [
+      { icon: 'i-ri-home-line', text: '首页', link: '/' },
+      { icon: 'i-line-md-folder-twotone', text: '分类', link: '/categories' },
+      { icon: 'i-fa-archive', text: '归档', link: '/archives' },
+      { icon: 'i-fa-film', text: '番剧', link: 'https://www.yhdz.one/', target: '_blank' },
+      { icon: 'i-ri-qq-fill', text: '加入官方 Q 群', link: 'https://qm.qq.com/q/IfDQEtfkk4', target: '_blank' },
+      { icon: 'i-fa-leaf', text: '关于', link: '/posts/about' },
+      { icon: 'i-fa-hand-holding-usd', text: '打赏', link: 'https://picui.ogmua.cn/s1/2026/09/13/6aa5ad8e71063.webp', target: '_blank' },
+      { icon: 'i-ri-customer-service-2-fill', text: '联系开发者', link: 'https://m.debox.pro/card?id=tjdcyuj2&invite_code=tjdcyuj2', target: '_blank' },
+    ],
+    sidebarOptions: {
+      position: 'left',
+      enableOnDesktop: false,
+    },
     notice: {
       message: '90G 整合包合集需加入我们的官方 Q 群获取！',
     },

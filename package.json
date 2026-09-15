@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "build": "npm run build:ssg",
-    "build:spa": "valaxy build",
-    "build:ssg": "valaxy build --ssg",
-    "dev": "valaxy",
+    "build:spa": "node scripts/add-date.cjs && valaxy build",
+    "build:ssg": "node scripts/add-date.cjs && valaxy build --ssg",
+    "dev": "node scripts/add-date.cjs && valaxy",
     "fuse": "valaxy fuse",
     "rss": "valaxy rss",
     "serve": "vite preview"

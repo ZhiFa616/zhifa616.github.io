@@ -11,18 +11,26 @@ export default defineSiteConfig({
   },
   description: 'Minecraft Free',
   social: [
-    { name: 'QQ 群', link: 'https://qm.qq.com/q/IfDQEtfkk4', icon: 'i-ri-qq-fill' },
-    { name: 'DeBox', link: 'https://m.debox.pro/card?id=0in7m9t5&invite_code=0in7m9t5', icon: 'i-ri-box-3-line' },
+    {
+      name: 'QQ 群',
+      link: 'https://qm.qq.com/q/IfDQEtfkk4',
+      icon: 'i-ri-qq-fill',
+    },
+    {
+      name: 'DeBox',
+      link: 'https://m.debox.pro/card?id=0in7m9t5&invite_code=0in7m9t5',
+      icon: 'i-ri-box-3-line',
+    },
   ],
   search: {
     enable: true,
     provider: 'fuse',
-    fuse: {
-      options: {
-        keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
-        threshold: 0.6,
-        ignoreLocation: true,
-      },
+  },
+  fuse: {
+    options: {
+      keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
+      threshold: 0.6,
+      ignoreLocation: true,
     },
   },
 } as const)

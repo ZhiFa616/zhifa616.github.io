@@ -1,6 +1,6 @@
-﻿---
+---
 id: 426AYI
-title: 涓婄嚎鍟︼紒
+title: 上线啦！
 date: 2026-06-13
 createdAt: "2026-06-13 02:48:32"
 updated: "2026-07-03 03:31:00"
@@ -13,11 +13,11 @@ feature: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxxqLwOg1SEGdGYbm
 isTop: true
 ---
 
-娆㈣繋鍐嶆鍥炴潵锛岃繖閲屾槸闅欓棿浜掕仈銆?
-浣犲彲鑳界涓€娆″惉璇存垜锛熸槸鐨勶紒鎴戜滑鍙兘鏄綘绗竴娆￠亣瑙併€?
-浣嗘槸鎴戜滑鍘熸湰鏄负浜嗕釜浜烘父鎴忓ū涔愮埍濂界兢缁勮€屾惌寤猴紝鏇炬惌寤虹殑缃戠珯宸插簾寮冿紒
-鐢ㄤ簡鎺ヨ繎涓変釜鏈堢殑鏃堕棿閲嶆柊寮€鍙戜簡杩欎釜缃戠珯锛?
-璇ョ綉绔欏湪鏈潵灏嗙敤浜庡唴瀹瑰垎浜紝娓告垙濞变箰绛夈€?
-娆㈣繋浣犳潵鍒拌繖閲岋紒
+欢迎再次回来，这里是隙间互联。
+你可能第一次听说我？是的！我们可能是你第一次遇见。
+但是我们原本是为了个人游戏娱乐爱好群组而搭建，曾搭建的网站已废弃！
+用了接近三个月的时间重新开发了这个网站！
+该网站在未来将用于内容分享，游戏娱乐等。
+欢迎你来到这里！
 
 ![BQACAgUAAyEGAASHRsPbAAEVfxxqLwOg1SEGdGYbmzb8B_I6R0tLmgACCS4AAhZseFXMGusTIUiBeDwE.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxxqLwOg1SEGdGYbmzb8B_I6R0tLmgACCS4AAhZseFXMGusTIUiBeDwE.png)

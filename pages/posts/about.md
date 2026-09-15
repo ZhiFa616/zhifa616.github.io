@@ -1,6 +1,6 @@
-﻿---
+---
 id: EAiACX
-title: 鍏充簬
+title: 关于
 date: 2019-01-25
 createdAt: "2019-01-25 19:09:48"
 updated: "2026-06-28 07:09:23"
@@ -13,19 +13,27 @@ feature: ""
 isTop: false
 ---
 
-> 娆㈣繋鏉ュ埌鐚尗濂囬亣锛侌煠?
-## 馃彔 鍏充簬鏈珯
-杩欐槸鑷爺骞跺紑鍙戜簡杩戜箮鍗婂勾鐨勪釜浜虹綉绔欙紝鏃犱换浣曞洟闃燂紝娌℃湁璧炲姪鑰屽紑鍙戜笂绾跨殑鍐呭鍒嗕韩绔欑偣銆?
+> 欢迎来到猫猫奇遇！🤝
 
-## 馃懆鈥嶐煉?寮€鍙戣€呮槸璋?浣犲ソ锛佸緢楂樺叴璁よ瘑浣狅紝鎴戝彨灏忓竷锛屽悕瀛楃殑鏉ユ簮锛氬摂鍝╁摂鍝╃煡鍚島p涓伙細寰€寰€鑰佸竷銆?鎴戞槸涓€涓缃戠粶瀹夊叏锛岃蒋浠跺紑鍙戯紝缃戠粶淇℃伅鎶€鏈瀬鍏风儹鐖辩殑璁＄畻鏈轰笓涓氫汉澹€?浣嗙敱浜庢垜瀛︾殑寰堟潅锛屽鑷存垜鐜板湪浠€涔堜篃涓嶄細銆傝浣犺绗戝暒銆?
+## 🏠 关于本站
+这是自研并开发了近乎半年的个人网站，无任何团队，没有赞助而开发上线的内容分享站点。
 
-## 馃摤 鑱旂郴鎴戝憖
-濡傛灉浣犳兂瑕佹垜鍙戝竷浣犻渶瑕佺殑鍐呭锛熸垨鏄綘璁や负璇ョ綉绔欐湁鍙敼杩涗紭鍖栫殑鍦版柟锛?娆㈣繋鑱旂郴鎴戯紒
-鎴戠殑涓汉鑱旂郴鏂瑰紡濡備笅锛?![BQACAgUAAyEGAASHRsPbAAEVfxZqLv8ci3vLjhD0S-SryU_qY49MVQACAy4AAhZseFVgsjoBo4N2-DwE.jpg](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxZqLv8ci3vLjhD0S-SryU_qY49MVQACAy4AAhZseFVgsjoBo4N2-DwE.jpg)
 
-濡傛灉浣犳兂鍔犲叆鎴戠殑缇わ紵
-娴忚鍣ㄦ垨寰俊鎵爜灏卞彲浠ョ湅鍒版垜鐨勭兢浜嗭紒
+## 👨‍💻 开发者是谁
+你好！很高兴认识你，我叫小布，名字的来源：哔哩哔哩知名up主：往往老布。
+我是一个对网络安全，软件开发，网络信息技术极具热爱的计算机专业人士。
+但由于我学的很杂，导致我现在什么也不会。让你见笑啦。
+
+
+## 📬 联系我呀
+如果你想要我发布你需要的内容？或是你认为该网站有可改进优化的地方？
+欢迎联系我！
+我的个人联系方式如下：
+![BQACAgUAAyEGAASHRsPbAAEVfxZqLv8ci3vLjhD0S-SryU_qY49MVQACAy4AAhZseFVgsjoBo4N2-DwE.jpg](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxZqLv8ci3vLjhD0S-SryU_qY49MVQACAy4AAhZseFVgsjoBo4N2-DwE.jpg)
+
+如果你想加入我的群？
+浏览器或微信扫码就可以看到我的群了！
 ![BQACAgUAAyEGAASHRsPbAAEVfxpqLwH5z4t0abOfQDcSOT9qustChwACBy4AAhZseFUUWTlhpvfDSzwE.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxpqLwH5z4t0abOfQDcSOT9qustChwACBy4AAhZseFUUWTlhpvfDSzwE.png)
 
-## 馃暩 杩欎釜缃戠珯灏嗘洿鏂颁簺浠€涔堬紵
-杩欎釜缃戠珯灏嗘洿鏂颁竴浜涙垜鐨勪釜浜虹敓娲伙紝鎶€鏈崥瀹紝MC鏁村悎鍖咃紝鍏嶈垂杞欢绛夛紝褰撶劧锛屼綘鍙兘瑙夊緱鎴戠殑涓汉鐢熸椿娌′粈涔堝ソ浜嗚В鐨勶紝鏄殑锛佹墍浠ユ垜涓嶄細涓婁紶鎴戠殑涓汉鐢熸椿鐢ㄤ簬闅愮娉勯湶锛
+## 🕸 这个网站将更新些什么？
+这个网站将更新一些我的个人生活，技术博客，MC整合包，免费软件等，当然，你可能觉得我的个人生活没什么好了解的，是的！所以我不会上传我的个人生活用于隐私泄露！

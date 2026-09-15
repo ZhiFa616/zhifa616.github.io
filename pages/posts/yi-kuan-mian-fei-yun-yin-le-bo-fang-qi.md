@@ -1,12 +1,12 @@
-﻿---
+---
 id: X48xBk
-title: 涓€娆惧厤璐逛簯闊充箰鎾斁鍣?
-createdAt: "2026-06-28 03:58:40"
+title: 一款免费云音乐播放器
 date: 2026-06-28
+createdAt: "2026-06-28 03:58:40"
 updated: "2026-07-02 04:36:18"
 tags:
-    - 闊充箰
-    - 鍏嶈垂杞欢
+    - 音乐
+    - 免费软件
 tag_ids:
     - ZFY9sL
     - 6SjJFo
@@ -17,12 +17,12 @@ feature: ""
 isTop: false
 ---
 
-涓€娆惧厤璐圭殑浜戦煶涔愭挱鏀惧櫒---AlgerMusicPlayer
-浠ヤ笅涓洪瑙堝浘
+一款免费的云音乐播放器---AlgerMusicPlayer
+以下为预览图
 ![BQACAgUAAyEGAASHRsPbAAEWNTVqQC62_rtPBuIRhyG_Afcamkcu5gACpSMAAq3jAAFWUN12FzfBZak8BA.png](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEWNTVqQC62_rtPBuIRhyG_Afcamkcu5gACpSMAAq3jAAFWUN12FzfBZak8BA.png)
 
-鏀寔瀵煎叆闊虫簮锛屼簯鐐规挱銆傛垜浠渶瑕侀煶涔愯嚜鐢便€?
+支持导入音源，云点播。我们需要音乐自由。
 
-涓嬭浇閾炬帴锛?
-[绉诲姩浜戠洏](https://yun.139.com/shareweb/#/w/i/2w2KJDgK9F7g3)
-123浜戠洏锛堝緟寮€鏀撅級
+下载链接：
+[移动云盘](https://yun.139.com/shareweb/#/w/i/2w2KJDgK9F7g3)
+123云盘（待开放）

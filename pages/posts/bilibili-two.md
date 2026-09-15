@@ -1,6 +1,6 @@
-﻿---
+---
 id: 9XNJAA
-title: 涓€娆続ndroid涓婂熀浜巄ilibili鐨勫厤璐归煶涔愭挱鏀惧櫒
+title: 一款Android上基于bilibili的免费音乐播放器
 date: 2026-07-04
 createdAt: "2026-07-04 12:17:04"
 updated: "2026-07-04 05:12:29"
@@ -13,11 +13,11 @@ feature: ""
 isTop: false
 ---
 
-浣犳槸鍚﹀洜涓哄枩娆㈠惉闊充箰锛屽嵈鑻︿簬鎬绘槸闇€瑕佸湪鏌愰煶涔愬钩鍙板紑閫氫細鍛橈紵
-杩欐槸涓€娆惧熀浜巄ilibili鐨勫厤璐逛簯闊充箰鎾斁鍣紝骞舵瀯寤轰簬Android骞冲彴,浣跨Щ鍔ㄧ鐜╁涓嶅啀鍙楀浐瀹氫竴骞冲彴闂鑰屽洶鎵般€?
+你是否因为喜欢听音乐，却苦于总是需要在某音乐平台开通会员？
+这是一款基于bilibili的免费云音乐播放器，并构建于Android平台,使移动端玩家不再受固定一平台问题而困扰。
 ![20260704041836-225-5.avif](https://user15793.cn.imgto.link/public/20260703/20260704041836-225-5.avif)
-瀹冩敮鎸佸厤鐧诲綍鎼滅储鐐规挱闊充箰锛屼綘鍙互鍦ㄦ棤鐧诲綍鐨勬儏鍐典笅鐣呭惉闊充箰銆?
-涓旀敮鎸佽嚜鍔ㄥ尮閰嶆瓕璇嶏紝鏈夎嚜甯︽瓕璇嶉〉闈€?
+它支持免登录搜索点播音乐，你可以在无登录的情况下畅听音乐。
+且支持自动匹配歌词，有自带歌词页面。
 
 <style>
 .my-button {
@@ -33,10 +33,10 @@ isTop: false
     cursor: pointer;
 }
 .my-button:hover {
-    background-color: #45a049; /* 榧犳爣鎮仠鏃跺姞娣遍鑹?*/
+    background-color: #45a049; /* 鼠标悬停时加深颜色 */
 }
 </style>
 
-<a href="https://yun.139.com/shareweb/#/w/i/2w2KKijDGXJ3z" class="my-button" target="_blank">鐐瑰嚮涓嬭浇</a>
+<a href="https://yun.139.com/shareweb/#/w/i/2w2KKijDGXJ3z" class="my-button" target="_blank">点击下载</a>
 
-瑙ｅ帇瀵嗙爜1231
+解压密码1231

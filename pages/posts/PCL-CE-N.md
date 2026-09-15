@@ -1,8 +1,8 @@
-﻿---
+---
 id: jfZ3dV
-title: 涓€娆炬敮鎸佽嚜鍔ㄥ畨瑁呭墠缃緷璧栫殑鍚姩鍣?
-createdAt: "2026-07-04 04:37:52"
+title: 一款支持自动安装前置依赖的启动器
 date: 2026-07-04
+createdAt: "2026-07-04 04:37:52"
 updated: "2026-07-04 04:37:52"
 tags: []
 tag_ids: []
@@ -13,11 +13,11 @@ feature: ""
 isTop: false
 ---
 
-濡備綘鎵€瑙侊紝杩欐槸涓€娆惧熀浜嶱CL-CE绀惧尯鐗堝紑鍙戠殑鏇村畬鍠勭殑PCL鐗堝惎鍔ㄥ櫒銆?
-瀹冩敮鎸佷粈涔堬紵瀹冩垨璁稿綋鍓嶆病鏈変粈涔堝€煎緱涓€鎻愮殑鏂板姛鑳斤紝浣嗗畠鏀寔浜嗚嚜鍔ㄥ畨瑁呭墠缃甿od銆?
-褰撲綘鍦ㄥ畨瑁呮煇浜沵od鏂囦欢鑷充綘鐨刴ods鏂囦欢澶规椂锛屽綋瀹冩娴嬪埌浣犳病鏈夊畨瑁呭墠缃緷璧栥€?
-瀹冧細鑷姩甯綘灏嗗墠缃緷璧栦笅杞藉苟瀛樻斁鑷冲搴旂殑鎸囧畾鏂囦欢澶广€?
-鎴栬鍏朵粬鍔熻兘鏆傛椂娌℃湁鎸栨帢鍑烘潵锛屼絾瀹冨彲鑳藉€煎緱涓€鐢ㄣ€?
+如你所见，这是一款基于PCL-CE社区版开发的更完善的PCL版启动器。
+它支持什么？它或许当前没有什么值得一提的新功能，但它支持了自动安装前置mod。
+当你在安装某些mod文件至你的mods文件夹时，当它检测到你没有安装前置依赖。
+它会自动帮你将前置依赖下载并存放至对应的指定文件夹。
+或许其他功能暂时没有挖掘出来，但它可能值得一用。
 ![screenshot-2026-07-04-044942.avif](https://user15793.cn.imgto.link/public/20260703/screenshot-2026-07-04-044942.avif)
 
 <style>
@@ -34,8 +34,8 @@ isTop: false
     cursor: pointer;
 }
 .my-button:hover {
-    background-color: #45a049; /* 榧犳爣鎮仠鏃跺姞娣遍鑹?*/
+    background-color: #45a049; /* 鼠标悬停时加深颜色 */
 }
 </style>
 
-<a href="https://yun.139.com/shareweb/#/w/i/2w2KMRvR4ouxv" class="my-button" target="_blank">绔嬪嵆涓嬭浇浣撻獙</a>
+<a href="https://yun.139.com/shareweb/#/w/i/2w2KMRvR4ouxv" class="my-button" target="_blank">立即下载体验！</a>

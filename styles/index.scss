@@ -18,47 +18,67 @@
   color: #FFFFE0 !important; /* LightYellow - 淡黄色 */
 }
 
-/* 3. 手机端：隐藏左上角侧边栏按钮，搜索按钮改为左上角悬浮按钮 */
+/* 3. 修复侧边栏文字不显示的核心问题
+   原因：SakuraNavLink 组件的文字带有 <lg:hidden 类，
+   在小于1024px的屏幕上会隐藏文字，导致手机端侧边栏打开后看不到字 */
+.sakura-sidebar {
+  /* 强制显示侧边栏中的导航文字，覆盖 <lg:hidden */
+  .sakura-nav-link-text {
+    display: inline !important;
+  }
+
+  .sakura-sidebar-link-item,
+  .sakura-nav-link,
+  a.sakura-nav-link {
+    display: flex !important;
+    align-items: center !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .sakura-sidebar-link-item .sakura-icon,
+  .sakura-nav-link .sakura-icon {
+    display: inline-flex !important;
+    flex-shrink: 0 !important;
+    margin-right: 8px !important;
+  }
+}
+
+/* 手机端侧边栏打开时确保所有内容可见 */
+.sakura-app-sidebar.is-open .sakura-sidebar,
+.sakura-sidebar.is-open {
+  .sakura-sidebar-link-item,
+  .sakura-nav-link,
+  .sakura-sidebar-link-items,
+  .sakura-sidebar-link,
+  .sakura-nav-link-text {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    display: flex !important;
+  }
+}
+
+/* 确保侧边栏内容不被裁剪 */
+.sakura-sidebar-link-items {
+  overflow: visible !important;
+}
+
+.sakura-sidebar-link-item {
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+
+/* 侧边栏文字在所有屏幕尺寸下都显示 */
+@media (max-width: 1024px) {
+  .sakura-sidebar .sakura-nav-link-text {
+    display: inline !important;
+  }
+}
+
 @media (max-width: 768px) {
-  /* 隐藏手机端左上角侧边栏汉堡按钮 */
-  .mobile-btn {
-    display: none !important;
-  }
-
-  /* 搜索按钮改造为左上角悬浮按钮 */
-  .sakura-search-btn {
-    position: fixed !important;
-    top: 14px !important;
-    left: 14px !important;
-    z-index: 999 !important;
-    width: 42px !important;
-    height: 42px !important;
-    min-width: 42px !important;
-    border-radius: 50% !important;
-    background: var(--sakura-color-primary, #ff9eb5) !important;
-    color: #fff !important;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18) !important;
-    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-  }
-
-  .sakura-search-btn:hover {
-    transform: scale(1.08);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
-  }
-
-  .sakura-search-btn:active {
-    transform: scale(0.95);
-  }
-
-  /* 搜索按钮内的图标 */
-  .sakura-search-btn > div {
-    font-size: 20px !important;
-    color: #fff !important;
-  }
-
-  /* 调整导航栏标题位置，避免被悬浮按钮遮挡 */
-  .sakura-navbar-brand {
-    margin-left: 48px !important;
+  .sakura-sidebar .sakura-nav-link-text {
+    display: inline !important;
   }
 }
 // you can custom css here

@@ -80,6 +80,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/comments/': RouteRecordInfo<
+      '/comments/',
+      '/comments',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
@@ -136,6 +143,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/friends': RouteRecordInfo<
+      '/posts/friends',
+      '/posts/friends',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/games': RouteRecordInfo<
+      '/posts/games',
+      '/posts/games',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/guanfang-qunzu': RouteRecordInfo<
       '/posts/guanfang-qunzu',
       '/posts/guanfang-qunzu',
@@ -146,6 +167,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/Java-download': RouteRecordInfo<
       '/posts/Java-download',
       '/posts/Java-download',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/list': RouteRecordInfo<
+      '/posts/list',
+      '/posts/list',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -199,9 +227,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/movies': RouteRecordInfo<
+      '/posts/movies',
+      '/posts/movies',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/PCL-CE-N': RouteRecordInfo<
       '/posts/PCL-CE-N',
       '/posts/PCL-CE-N',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/playlists': RouteRecordInfo<
+      '/posts/playlists',
+      '/posts/playlists',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -338,6 +380,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/comments/index.md': {
+      routes:
+        | '/comments/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/links/index.md': {
       routes:
         | '/links/'
@@ -402,6 +452,22 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/friends.md': {
+      routes:
+        | '/posts/friends'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/games.md': {
+      routes:
+        | '/posts/games'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/guanfang-qunzu.md': {
       routes:
         | '/posts/guanfang-qunzu'
@@ -413,6 +479,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/Java-download.md': {
       routes:
         | '/posts/Java-download'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/list.md': {
+      routes:
+        | '/posts/list'
       views:
         | never
       pathParamNames:
@@ -474,9 +548,25 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/movies.md': {
+      routes:
+        | '/posts/movies'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/PCL-CE-N.md': {
       routes:
         | '/posts/PCL-CE-N'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/playlists.md': {
+      routes:
+        | '/posts/playlists'
       views:
         | never
       pathParamNames:

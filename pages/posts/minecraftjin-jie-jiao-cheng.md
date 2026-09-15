@@ -1,6 +1,7 @@
 ---
 id: 5yUBwd
 title: Minecraft进阶联机教程（离线）
+cover: https://user15793.cn.imgto.link/public/20260701/2026-07-01-234608.avif
 date: 2026-07-01
 createdAt: "2026-07-01 23:43:22"
 updated: "2026-07-01 23:43:22"

@@ -1,6 +1,7 @@
 ---
 id: kBHwKP
 title: 高养老向整合包
+cover: https://user16259.cn.imgto.link/public/20260707/screenshot-2026-07-07-160824.avif
 date: 2026-07-08
 createdAt: "2026-07-08 00:02:49"
 updated: "2026-07-07 16:10:45"

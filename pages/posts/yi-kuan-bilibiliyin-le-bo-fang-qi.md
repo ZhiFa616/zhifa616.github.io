@@ -1,6 +1,7 @@
 ---
 id: OW2Qw4
 title: 一款bilibili音乐播放器
+cover: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEWNjRqQFcOPdMJc8sWODy6jGlCaxn-lwACuSQAAq3jAAFWXWKmaBXBkog8BA.png
 date: 2026-06-28
 createdAt: "2026-06-28 15:01:49"
 updated: "2026-07-02 04:36:25"

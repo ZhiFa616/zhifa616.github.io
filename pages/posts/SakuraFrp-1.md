@@ -1,6 +1,7 @@
 ---
 id: wQpNY2
 title: MC樱花联机教程
+cover: https://user15793.cn.imgto.link/public/20260707/screenshot-2026-07-07-150247.avif
 date: 2026-07-07
 createdAt: "2026-07-07 14:57:07"
 updated: "2026-07-07 14:57:07"

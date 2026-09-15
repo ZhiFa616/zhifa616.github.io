@@ -1,6 +1,7 @@
 ---
 id: d04puK
 title: Minecraft基础联机教程（一）
+cover: https://user15793.cn.imgto.link/public/20260701/2026-07-01-221722.avif
 date: 2026-07-02
 createdAt: "2026-07-02 05:42:22"
 updated: "2026-07-01 23:43:18"

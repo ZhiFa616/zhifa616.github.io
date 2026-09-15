@@ -1,6 +1,7 @@
 ---
 id: nTBkMD
 title: 言论自由--加入我的官方群组
+cover: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEWPgJqQOduxmC0zW4BnRM25PPlV-xPPgACUSEAAq3jCFY-eGi9j9QqOzwE.jpg
 date: 2026-06-28
 createdAt: "2026-06-28 17:20:03"
 updated: "2026-06-28 17:20:03"

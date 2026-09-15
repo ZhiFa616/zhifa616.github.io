@@ -1,6 +1,7 @@
 ---
 id: MiC3NJ
 title: bilibili免费云音乐播放器two
+cover: https://user15793.cn.imgto.link/public/20260703/screenshot-2026-07-04-045712.avif
 date: 2026-07-04
 createdAt: "2026-07-04 04:57:31"
 updated: "2026-07-04 04:57:31"

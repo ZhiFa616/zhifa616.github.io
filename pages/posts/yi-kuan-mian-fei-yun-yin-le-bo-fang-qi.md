@@ -1,6 +1,7 @@
 ---
 id: X48xBk
 title: 一款免费云音乐播放器
+cover: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEWNTVqQC62_rtPBuIRhyG_Afcamkcu5gACpSMAAq3jAAFWUN12FzfBZak8BA.png
 date: 2026-06-28
 createdAt: "2026-06-28 03:58:40"
 updated: "2026-07-02 04:36:18"

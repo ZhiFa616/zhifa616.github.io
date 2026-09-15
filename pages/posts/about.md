@@ -1,6 +1,7 @@
 ---
 id: EAiACX
 title: 关于
+cover: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxZqLv8ci3vLjhD0S-SryU_qY49MVQACAy4AAhZseFVgsjoBo4N2-DwE.jpg
 date: 2019-01-25
 createdAt: "2019-01-25 19:09:48"
 updated: "2026-06-28 07:09:23"

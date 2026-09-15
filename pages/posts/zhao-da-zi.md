@@ -1,6 +1,7 @@
 ---
 id: 2zOzWT
 title: 缺乏游戏好友吗？
+cover: https://user15793.cn.imgto.link/public/20260701/photo-2026-07-02-04-30-51.avif
 date: 2026-07-02
 createdAt: "2026-07-02 20:26:13"
 updated: "2026-07-02 04:33:33"

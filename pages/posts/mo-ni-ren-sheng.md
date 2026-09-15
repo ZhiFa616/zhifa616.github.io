@@ -1,6 +1,7 @@
 ---
 id: wiEMa3
 title: 一款模拟人生的整合包
+cover: https://user15793.cn.imgto.link/public/20260703/screenshot-2026-07-04-024305.avif
 date: 2026-07-04
 createdAt: "2026-07-04 01:48:53"
 updated: "2026-07-04 05:26:08"

@@ -1,6 +1,7 @@
 ---
 id: 0YSTjt
 title: Java全版本下载
+cover: https://user16259.cn.imgto.link/public/20260707/screenshot-2026-07-07-162816.avif
 date: 2026-07-07
 createdAt: "2026-07-07 16:25:46"
 updated: "2026-07-07 16:25:46"

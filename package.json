@@ -5,9 +5,10 @@
   "private": true,
   "scripts": {
     "build": "npm run build:ssg",
-    "build:spa": "node scripts/add-date.cjs && valaxy build",
-    "build:ssg": "node scripts/add-date.cjs && valaxy build --ssg",
-    "dev": "node scripts/add-date.cjs && valaxy",
+    "build:spa": "npm run prebuild && valaxy build",
+    "build:ssg": "npm run prebuild && valaxy build --ssg",
+    "dev": "npm run prebuild && valaxy",
+    "prebuild": "node scripts/add-date.cjs && node scripts/extract-cover.cjs",
     "fuse": "valaxy fuse",
     "rss": "valaxy rss",
     "serve": "vite preview"

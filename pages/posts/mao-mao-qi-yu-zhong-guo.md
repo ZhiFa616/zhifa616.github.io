@@ -9,7 +9,7 @@ tag_ids: []
 categories: []
 published: true
 hideInList: false
-feature: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxxqLwOg1SEGdGYbmzb8B_I6R0tLmgACCS4AAhZseFXMGusTIUiBeDwE.png
+cover: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxxqLwOg1SEGdGYbmzb8B_I6R0tLmgACCS4AAhZseFXMGusTIUiBeDwE.png
 isTop: true
 ---
 

@@ -11,7 +11,7 @@ tag_ids:
 categories: []
 published: true
 hideInList: false
-feature: https://picui.ogmua.cn/s1/2026/09/15/6aa832bee193e.webp
+cover: https://picui.ogmua.cn/s1/2026/09/15/6aa832bee193e.webp
 isTop: false
 ---
 

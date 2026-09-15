@@ -52,6 +52,17 @@ export default defineValaxyConfig<ThemeUserConfig>({
     ],
     sidebarOptions: { position: 'left', enableOnDesktop: false },
     notice: { message: '90G 整合包合集需加入我们的官方 Q 群获取！' },
+    // 文章列表封面配置
+    postList: {
+      // 默认封面图，没有设置 cover 的文章会显示这张图
+      defaultImage: 'https://picui.ogmua.cn/s1/2026/09/15/6aa832bee193e.webp',
+    },
+    ui: {
+      postList: {
+        // 显示文章封面图
+        image: true,
+      },
+    },
   },
   unocss: { safelist },
 })

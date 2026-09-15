@@ -1,5 +1,8 @@
 ---
 title: 清单
+date: 2026-09-15
+published: true
+hideInList: true
 ---
 
 # 🎯 清单

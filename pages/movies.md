@@ -1,5 +1,8 @@
 ---
 title: 电影
+date: 2026-09-15
+published: true
+hideInList: true
 ---
 
 # 🎞️ 电影

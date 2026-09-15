@@ -81,4 +81,39 @@
     display: inline !important;
   }
 }
+
+/* 4. 首页文章列表"加载更多"按钮美化 */
+.sakura-pagination-scroll {
+  .load-more-button {
+    /* 隐藏原始文字 */
+    font-size: 0 !important;
+    color: transparent !important;
+    position: relative;
+    padding: 12px 32px !important;
+    border-radius: 25px !important;
+    background: var(--sakura-color-primary, #ff9eb5) !important;
+    color: #fff !important;
+    border: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .load-more-button::before {
+    content: "展开更多文章";
+    font-size: 15px !important;
+    color: #fff !important;
+    display: inline-block;
+  }
+
+  .load-more-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    background: var(--sakura-color-primary-dark, #ff85a2) !important;
+  }
+
+  .load-more-button:active {
+    transform: translateY(0);
+  }
+}
 // you can custom css here

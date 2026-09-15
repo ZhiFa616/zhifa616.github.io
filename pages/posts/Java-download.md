@@ -1,11 +1,11 @@
----
+﻿---
 id: 0YSTjt
-title: Java全版本下载
+title: Java鍏ㄧ増鏈笅杞?
 createdAt: "2026-07-07 16:25:46"
+date: 2026-07-07
 updated: "2026-07-07 16:25:46"
 tags:
-    - 整合包
-tag_ids:
+    - 鏁村悎鍖?tag_ids:
     - e7lSbu
 categories: []
 published: true
@@ -14,9 +14,9 @@ feature: ""
 isTop: false
 ---
 
-此篇文章用于如果你不知道去哪里下载Java，请至此处下载
+姝ょ瘒鏂囩珷鐢ㄤ簬濡傛灉浣犱笉鐭ラ亾鍘诲摢閲屼笅杞絁ava锛岃鑷虫澶勪笅杞?
 ![screenshot-2026-07-07-162816.avif](https://user16259.cn.imgto.link/public/20260707/screenshot-2026-07-07-162816.avif)
-注：该文件夹内Java已长久未进行更新，我们将在一个月内进行全部整合更新。
+娉細璇ユ枃浠跺す鍐匤ava宸查暱涔呮湭杩涜鏇存柊锛屾垜浠皢鍦ㄤ竴涓湀鍐呰繘琛屽叏閮ㄦ暣鍚堟洿鏂般€?
 
-下载地址：
-[123云盘](https://1816347435.share.123pan.cn/123pan/w6mqVv-RWq4A)
+涓嬭浇鍦板潃锛?
+[123浜戠洏](https://1816347435.share.123pan.cn/123pan/w6mqVv-RWq4A)

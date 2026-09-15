@@ -129,9 +129,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/FTZX': RouteRecordInfo<
-      '/posts/FTZX',
-      '/posts/FTZX',
+    '/posts/feituzhixia': RouteRecordInfo<
+      '/posts/feituzhixia',
+      '/posts/feituzhixia',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -146,6 +146,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/Java-download': RouteRecordInfo<
       '/posts/Java-download',
       '/posts/Java-download',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/M-F-yy': RouteRecordInfo<
+      '/posts/M-F-yy',
+      '/posts/M-F-yy',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -188,13 +195,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/modpack-one': RouteRecordInfo<
       '/posts/modpack-one',
       '/posts/modpack-one',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/MusicFree': RouteRecordInfo<
-      '/posts/MusicFree',
-      '/posts/MusicFree',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -255,6 +255,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/search/': RouteRecordInfo<
+      '/search/',
+      '/search',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -283,7 +290,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    '../node_modules/.pnpm/valaxy@1.0.0-rc.9_@babel+pa_a0fc55172b4eeb2ae881ba95a7e93176/node_modules/valaxy/client/pages/[...path].vue': {
+    '../node_modules/.pnpm/valaxy@1.0.0-rc.9_@babel+pa_fd30fd20dfe228c6347fc82435f6c1d5/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -387,9 +394,9 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/FTZX.md': {
+    'pages/posts/feituzhixia.md': {
       routes:
-        | '/posts/FTZX'
+        | '/posts/feituzhixia'
       views:
         | never
       pathParamNames:
@@ -406,6 +413,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/Java-download.md': {
       routes:
         | '/posts/Java-download'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/M-F-yy.md': {
+      routes:
+        | '/posts/M-F-yy'
       views:
         | never
       pathParamNames:
@@ -454,14 +469,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/modpack-one.md': {
       routes:
         | '/posts/modpack-one'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/MusicFree.md': {
-      routes:
-        | '/posts/MusicFree'
       views:
         | never
       pathParamNames:
@@ -526,6 +533,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/zhu-meng-wu-yu.md': {
       routes:
         | '/posts/zhu-meng-wu-yu'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/search/index.md': {
+      routes:
+        | '/search/'
       views:
         | never
       pathParamNames:

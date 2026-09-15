@@ -17,4 +17,48 @@
 .sakura-sidebar-link-items a:hover {
   color: #FFFFE0 !important; /* LightYellow - 淡黄色 */
 }
+
+/* 3. 手机端：隐藏左上角侧边栏按钮，搜索按钮改为左上角悬浮按钮 */
+@media (max-width: 768px) {
+  /* 隐藏手机端左上角侧边栏汉堡按钮 */
+  .mobile-btn {
+    display: none !important;
+  }
+
+  /* 搜索按钮改造为左上角悬浮按钮 */
+  .sakura-search-btn {
+    position: fixed !important;
+    top: 14px !important;
+    left: 14px !important;
+    z-index: 999 !important;
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    border-radius: 50% !important;
+    background: var(--sakura-color-primary, #ff9eb5) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  }
+
+  .sakura-search-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  .sakura-search-btn:active {
+    transform: scale(0.95);
+  }
+
+  /* 搜索按钮内的图标 */
+  .sakura-search-btn > div {
+    font-size: 20px !important;
+    color: #fff !important;
+  }
+
+  /* 调整导航栏标题位置，避免被悬浮按钮遮挡 */
+  .sakura-navbar-brand {
+    margin-left: 48px !important;
+  }
+}
 // you can custom css here

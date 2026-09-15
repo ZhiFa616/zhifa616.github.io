@@ -1,0 +1,1 @@
+import{L as e,O as t,R as n}from"./theme.BezndtQm.js";var r=t({cast(e){return typeof e==`string`&&(e={name:e}),e},defaults:{"@type":`ListItem`},resolve(t,r){return typeof t.item==`string`?t.item=n(r.meta.host,t.item):typeof t.item==`object`&&(t.item=e(t.item,r)),t}});export{r as listItemResolver};

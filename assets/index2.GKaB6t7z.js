@@ -1,0 +1,1 @@
+import{O as e}from"./theme.CCuPeDj4.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};

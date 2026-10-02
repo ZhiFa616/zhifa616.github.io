@@ -1,6 +1,8 @@
 ---
 
 title:  Other Body
+cover: https://picui.ogmua.cn/s1/2026/09/25/6ab6811869280.webp
+date: 2026-09-22
 createdAt: "2026-09-22 14:30:00"
 --------------------------------
 

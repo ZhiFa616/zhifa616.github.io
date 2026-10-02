@@ -1,6 +1,8 @@
 ---
 
 title: 各类恐怖整合包  
+cover: https://img.remit.ee/i/1yUredWeRi0j
+date: 2026-09-30
 createdAt: "2026-09-30 14:30:00"
 --------------------------------
 

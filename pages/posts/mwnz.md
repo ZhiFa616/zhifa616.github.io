@@ -1,6 +1,8 @@
 ---
 
 title: 迷雾农庄
+cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa5565a1c3.webp
+date: 2026-09-17
 createdAt: "2026-09-17 00:30:00"
 --------------------------------
 

@@ -1,5 +1,7 @@
 ---
 title: Rooster的工会冒险
+cover: https://picui.ogmua.cn/s1/2026/09/18/6aad122365143.webp
+date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 

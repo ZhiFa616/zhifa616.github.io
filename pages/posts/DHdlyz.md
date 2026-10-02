@@ -1,6 +1,8 @@
 ---
 
 title: 地牢英雄  
+cover: https://img.remit.ee/i/sV8Rb3axTGeB
+date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 

@@ -1,5 +1,7 @@
 ---
 title: 最终日3.0正式版
+cover: https://picui.ogmua.cn/s1/2026/09/18/6aacfccb141ba.webp
+date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 

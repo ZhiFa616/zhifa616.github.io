@@ -1,6 +1,8 @@
 ---
 
 title: 畸变修仙-寄生仙途  
+cover: https://picui.ogmua.cn/s1/2026/09/20/6aaeeba0dd4f2.webp
+date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"
 --------------------------------
 

@@ -1,6 +1,8 @@
 ---
 
 title: 核冬天 
+cover: https://picui.ogmua.cn/s1/2026/09/18/6aacf66f51a0a.webp
+date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 

@@ -1,24 +1,37 @@
 {
-  "name": "fbi-blog",
+  "name": "aiovtue-blog",
   "type": "module",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg",
-    "build:spa": "npm run prebuild && valaxy build",
-    "build:ssg": "npm run prebuild && valaxy build --ssg",
-    "dev": "npm run prebuild && valaxy",
-    "prebuild": "node scripts/add-date.cjs && node scripts/extract-cover.cjs",
+    "build": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && node scripts/build-ssg.mjs",
+    "build:spa": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && valaxy build",
+    "build:ssg": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && node scripts/build-ssg.mjs",
+    "build:ssg:raw": "valaxy build --ssg",
     "fuse": "valaxy fuse",
+    "dev": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && valaxy",
     "rss": "valaxy rss",
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "1.0.0-rc.9",
-    "valaxy-theme-sakura": "^0.10.3-alpha.1"
+    "echarts": "4.9.0",
+    "lxgw-wenkai-screen-webfont": "1.7.0",
+    "markdown-it": "^14.2.0",
+    "pixi-live2d-display": "^0.4.0",
+    "pixi.js": "^8.19.0",
+    "twikoo": "1.6.44",
+    "valaxy": "0.28.10",
+    "valaxy-addon-bangumi": "^0.4.0",
+    "valaxy-addon-live2d": "^0.4.0",
+    "valaxy-addon-meting": "^0.2.0",
+    "valaxy-addon-twikoo": "^0.0.4",
+    "valaxy-addon-vercount": "^0.0.7",
+    "valaxy-addon-waline": "^0.2.1",
+    "valaxy-theme-sakura": "latest",
+    "valaxy-theme-yun": "^0.28.10"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "vue": "^3.5.42"
+    "playwright": "^1.60.0",
+    "typescript": "^5.9.3"
   }
 }

@@ -1,6 +1,8 @@
 ---
 
 title: 猎杀：历史1949
+cover: https://picui.ogmua.cn/s1/2026/09/16/6aaa9ed40ccf7.webp
+date: 2026-09-17
 createdAt: "2026-09-17 00:00:00"
 --------------------------------
 ![屏幕截图 2026-09-16 213931.png](https://picui.ogmua.cn/s1/2026/09/16/6aaa9ed40ccf7.webp)

@@ -1,0 +1,6 @@
+nodeLinker: hoisted
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  typeit: false
+  vue-demi: set this to true or false

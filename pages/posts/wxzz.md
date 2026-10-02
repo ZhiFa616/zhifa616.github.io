@@ -1,5 +1,7 @@
 ---
 title: 无限战争4.0
+cover: https://picui.ogmua.cn/s1/2026/09/17/6aac08c3b2c24.webp
+date: 2026-09-18
 createdAt: "2026-09-18 00:30:00"
 --------------------------------
 

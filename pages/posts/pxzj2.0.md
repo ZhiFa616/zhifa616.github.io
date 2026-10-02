@@ -1,6 +1,8 @@
 ---
 
 title: 破晓之界2.0  
+cover: https://img.remit.ee/i/iP82zcWm1TOM
+date: 2026-09-20
 createdAt: "2026-09-20 14:30:00"
 --------------------------------
 

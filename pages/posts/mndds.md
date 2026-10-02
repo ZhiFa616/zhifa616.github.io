@@ -1,6 +1,8 @@
 ---
 
 title: 模拟大都市
+cover: https://img.remit.ee/i/clS25ksbtvsX
+date: 2026-09-29
 createdAt: "2026-09-29 14:30:00"
 --------------------------------
 

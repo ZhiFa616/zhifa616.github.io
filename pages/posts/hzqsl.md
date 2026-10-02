@@ -1,5 +1,7 @@
 ---
 title: 洪灾启示录
+cover: https://picui.ogmua.cn/s1/2026/09/17/6aaba21ddd2eb.webp
+date: 2026-09-17
 createdAt: "2026-09-17 14:30:00"
 --------------------------------
 

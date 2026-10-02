@@ -1,6 +1,8 @@
 ---
 
 title: 刀剑异闻录  
+cover: https://img.remit.ee/i/1s1Ub2p6USXN
+date: 2026-10-01
 createdAt: "2026-10-01 14:30:00"
 --------------------------------
 

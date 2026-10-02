@@ -1,6 +1,8 @@
 ---
 
 title: FTB自动翻译mod  
+cover: https://picui.ogmua.cn/s1/2026/09/18/6aacf54624957.webp
+date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 

@@ -1,6 +1,8 @@
 ---
 
 title: 方可梦最新版  
+cover: https://img.remit.ee/i/4lj3uHGbxqsj
+date: 2026-09-27
 createdAt: "2026-09-27 14:30:00"
 --------------------------------
 

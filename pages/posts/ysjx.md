@@ -1,6 +1,8 @@
 ---
 
 title:  元素觉醒  
+cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa37e55704.webp
+date: 2026-09-17
 createdAt: "2026-09-17 00:30:00"
 --------------------------------
 

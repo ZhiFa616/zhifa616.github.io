@@ -1,5 +1,7 @@
 ---
 title: 生活大冒险高版本重制版  
+cover: https://img.remit.ee/i/hyKmFxSAizTE
+date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"
 --------------------------------
 

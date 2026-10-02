@@ -22,6 +22,7 @@ components.d.ts
 # env (may contain secrets like VALAXY_ENCRYPT_PASSWORD)
 .env
 .env.*
+!.env.example
 
 # valaxy fuse
 public/valaxy-fuse-list.json
@@ -34,3 +35,5 @@ public/atom.xml
 
 # valaxy rss
 public/feed.json
+.obsidian
+dist

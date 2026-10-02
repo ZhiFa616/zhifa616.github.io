@@ -1,7 +1,7 @@
 ---
 layout: tags
-# title: 云游的小标签
+title: 标签
 icon: i-ri-price-tag-3-line
-nav: false
-# comment: false
+cover: https://img.naixiai.cn/2026/06/12/1780909368268.png
+comment: false
 ---

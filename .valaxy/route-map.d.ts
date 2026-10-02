@@ -59,13 +59,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/about/site': RouteRecordInfo<
-      '/about/site',
-      '/about/site',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/archives/': RouteRecordInfo<
       '/archives/',
       '/archives',
@@ -97,13 +90,6 @@ declare module 'vue-router/auto-routes' {
     '/games': RouteRecordInfo<
       '/games',
       '/games',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/links/': RouteRecordInfo<
-      '/links/',
-      '/links',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -150,9 +136,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/akdy': RouteRecordInfo<
+      '/posts/akdy',
+      '/posts/akdy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/Alexcraft-mc': RouteRecordInfo<
       '/posts/Alexcraft-mc',
       '/posts/Alexcraft-mc',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/aysykj': RouteRecordInfo<
+      '/posts/aysykj',
+      '/posts/aysykj',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -171,9 +171,107 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Blood-curse': RouteRecordInfo<
+      '/posts/Blood-curse',
+      '/posts/Blood-curse',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/CC5': RouteRecordInfo<
+      '/posts/CC5',
+      '/posts/CC5',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/CCCP-su': RouteRecordInfo<
+      '/posts/CCCP-su',
+      '/posts/CCCP-su',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/CiscoRPG': RouteRecordInfo<
+      '/posts/CiscoRPG',
+      '/posts/CiscoRPG',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/cjzd': RouteRecordInfo<
+      '/posts/cjzd',
+      '/posts/cjzd',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Crashed': RouteRecordInfo<
+      '/posts/Crashed',
+      '/posts/Crashed',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/db': RouteRecordInfo<
+      '/posts/db',
+      '/posts/db',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/DHdlyz': RouteRecordInfo<
+      '/posts/DHdlyz',
+      '/posts/DHdlyz',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/djywl': RouteRecordInfo<
+      '/posts/djywl',
+      '/posts/djywl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dxjb': RouteRecordInfo<
+      '/posts/dxjb',
+      '/posts/dxjb',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/feituzhixia': RouteRecordInfo<
       '/posts/feituzhixia',
       '/posts/feituzhixia',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/fkm': RouteRecordInfo<
+      '/posts/fkm',
+      '/posts/fkm',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/fkxj': RouteRecordInfo<
+      '/posts/fkxj',
+      '/posts/fkxj',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/fmbj': RouteRecordInfo<
+      '/posts/fmbj',
+      '/posts/fmbj',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/FZZL2.0': RouteRecordInfo<
+      '/posts/FZZL2.0',
+      '/posts/FZZL2/0',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -185,9 +283,72 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/hdt': RouteRecordInfo<
+      '/posts/hdt',
+      '/posts/hdt',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/hzqsl': RouteRecordInfo<
+      '/posts/hzqsl',
+      '/posts/hzqsl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Java': RouteRecordInfo<
+      '/posts/Java',
+      '/posts/Java',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/Java-download': RouteRecordInfo<
       '/posts/Java-download',
       '/posts/Java-download',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/jhjy': RouteRecordInfo<
+      '/posts/jhjy',
+      '/posts/jhjy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/jsxt': RouteRecordInfo<
+      '/posts/jsxt',
+      '/posts/jsxt',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/kb': RouteRecordInfo<
+      '/posts/kb',
+      '/posts/kb',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/lcylc': RouteRecordInfo<
+      '/posts/lcylc',
+      '/posts/lcylc',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/liesha': RouteRecordInfo<
+      '/posts/liesha',
+      '/posts/liesha',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/lyzp': RouteRecordInfo<
+      '/posts/lyzp',
+      '/posts/lyzp',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -227,6 +388,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/mndds': RouteRecordInfo<
+      '/posts/mndds',
+      '/posts/mndds',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/mo-ni-ren-sheng': RouteRecordInfo<
       '/posts/mo-ni-ren-sheng',
       '/posts/mo-ni-ren-sheng',
@@ -241,9 +409,86 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/mwnz': RouteRecordInfo<
+      '/posts/mwnz',
+      '/posts/mwnz',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/mznl': RouteRecordInfo<
+      '/posts/mznl',
+      '/posts/mznl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/newage': RouteRecordInfo<
+      '/posts/newage',
+      '/posts/newage',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/niepan': RouteRecordInfo<
+      '/posts/niepan',
+      '/posts/niepan',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/OB': RouteRecordInfo<
+      '/posts/OB',
+      '/posts/OB',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/PCL-CE-N': RouteRecordInfo<
       '/posts/PCL-CE-N',
       '/posts/PCL-CE-N',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/pxzj2.0': RouteRecordInfo<
+      '/posts/pxzj2.0',
+      '/posts/pxzj2/0',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/QA': RouteRecordInfo<
+      '/posts/QA',
+      '/posts/QA',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/qq': RouteRecordInfo<
+      '/posts/qq',
+      '/posts/qq',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/qunluanjy': RouteRecordInfo<
+      '/posts/qunluanjy',
+      '/posts/qunluanjy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/quweibao': RouteRecordInfo<
+      '/posts/quweibao',
+      '/posts/quweibao',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/RSmx': RouteRecordInfo<
+      '/posts/RSmx',
+      '/posts/RSmx',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -255,9 +500,51 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/shdmx': RouteRecordInfo<
+      '/posts/shdmx',
+      '/posts/shdmx',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/thelastday': RouteRecordInfo<
+      '/posts/thelastday',
+      '/posts/thelastday',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wrrm': RouteRecordInfo<
+      '/posts/wrrm',
+      '/posts/wrrm',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wxzz': RouteRecordInfo<
+      '/posts/wxzz',
+      '/posts/wxzz',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/xgcz': RouteRecordInfo<
+      '/posts/xgcz',
+      '/posts/xgcz',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/yang-lao': RouteRecordInfo<
       '/posts/yang-lao',
       '/posts/yang-lao',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/yhxw': RouteRecordInfo<
+      '/posts/yhxw',
+      '/posts/yhxw',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -272,6 +559,41 @@ declare module 'vue-router/auto-routes' {
     '/posts/yi-kuan-mian-fei-yun-yin-le-bo-fang-qi': RouteRecordInfo<
       '/posts/yi-kuan-mian-fei-yun-yin-le-bo-fang-qi',
       '/posts/yi-kuan-mian-fei-yun-yin-le-bo-fang-qi',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/yj': RouteRecordInfo<
+      '/posts/yj',
+      '/posts/yj',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/yqbns': RouteRecordInfo<
+      '/posts/yqbns',
+      '/posts/yqbns',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/ysjx': RouteRecordInfo<
+      '/posts/ysjx',
+      '/posts/ysjx',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/yuanli': RouteRecordInfo<
+      '/posts/yuanli',
+      '/posts/yuanli',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/ZG-RPG': RouteRecordInfo<
+      '/posts/ZG-RPG',
+      '/posts/ZG-RPG',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -293,6 +615,27 @@ declare module 'vue-router/auto-routes' {
     '/posts/zhu-meng-wu-yu': RouteRecordInfo<
       '/posts/zhu-meng-wu-yu',
       '/posts/zhu-meng-wu-yu',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/zlsf': RouteRecordInfo<
+      '/posts/zlsf',
+      '/posts/zlsf',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/zy2': RouteRecordInfo<
+      '/posts/zy2',
+      '/posts/zy2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/zzyh': RouteRecordInfo<
+      '/posts/zzyh',
+      '/posts/zzyh',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -324,7 +667,7 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    '../node_modules/.pnpm/valaxy-theme-sakura@0.10.2__ff83fa824efa1b010746f272c297a1c3/node_modules/valaxy-theme-sakura/pages/index.vue': {
+    'node_modules/valaxy-theme-sakura/pages/index.vue': {
       routes:
         | '/'
       views:
@@ -332,7 +675,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    '../node_modules/.pnpm/valaxy@1.0.0-rc.9_@babel+pa_fd30fd20dfe228c6347fc82435f6c1d5/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -351,14 +694,6 @@ declare module 'vue-router/auto-routes' {
     'pages/about/index.md': {
       routes:
         | '/about/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/about/site.md': {
-      routes:
-        | '/about/site'
       views:
         | never
       pathParamNames:
@@ -404,14 +739,6 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/links/index.md': {
-      routes:
-        | '/links/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
     'pages/list.md': {
       routes:
         | '/list'
@@ -428,7 +755,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    '../node_modules/.pnpm/valaxy-theme-sakura@0.10.2__ff83fa824efa1b010746f272c297a1c3/node_modules/valaxy-theme-sakura/pages/page/[page].vue': {
+    'pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
@@ -460,9 +787,25 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/akdy.md': {
+      routes:
+        | '/posts/akdy'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/Alexcraft-mc.md': {
       routes:
         | '/posts/Alexcraft-mc'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/aysykj.md': {
+      routes:
+        | '/posts/aysykj'
       views:
         | never
       pathParamNames:
@@ -484,9 +827,121 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/Blood-curse.md': {
+      routes:
+        | '/posts/Blood-curse'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/CC5.md': {
+      routes:
+        | '/posts/CC5'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/CCCP-su.md': {
+      routes:
+        | '/posts/CCCP-su'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/CiscoRPG.md': {
+      routes:
+        | '/posts/CiscoRPG'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/cjzd.md': {
+      routes:
+        | '/posts/cjzd'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/Crashed.md': {
+      routes:
+        | '/posts/Crashed'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/db.md': {
+      routes:
+        | '/posts/db'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/DHdlyz.md': {
+      routes:
+        | '/posts/DHdlyz'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/djywl.md': {
+      routes:
+        | '/posts/djywl'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/dxjb.md': {
+      routes:
+        | '/posts/dxjb'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/feituzhixia.md': {
       routes:
         | '/posts/feituzhixia'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/fkm.md': {
+      routes:
+        | '/posts/fkm'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/fkxj.md': {
+      routes:
+        | '/posts/fkxj'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/fmbj.md': {
+      routes:
+        | '/posts/fmbj'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/FZZL2.0.md': {
+      routes:
+        | '/posts/FZZL2.0'
       views:
         | never
       pathParamNames:
@@ -500,9 +955,81 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/hdt.md': {
+      routes:
+        | '/posts/hdt'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/hzqsl.md': {
+      routes:
+        | '/posts/hzqsl'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/Java.md': {
+      routes:
+        | '/posts/Java'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/Java-download.md': {
       routes:
         | '/posts/Java-download'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/jhjy.md': {
+      routes:
+        | '/posts/jhjy'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/jsxt.md': {
+      routes:
+        | '/posts/jsxt'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/kb.md': {
+      routes:
+        | '/posts/kb'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/lcylc.md': {
+      routes:
+        | '/posts/lcylc'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/liesha.md': {
+      routes:
+        | '/posts/liesha'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/lyzp.md': {
+      routes:
+        | '/posts/lyzp'
       views:
         | never
       pathParamNames:
@@ -548,6 +1075,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/mndds.md': {
+      routes:
+        | '/posts/mndds'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/mo-ni-ren-sheng.md': {
       routes:
         | '/posts/mo-ni-ren-sheng'
@@ -564,9 +1099,97 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/mwnz.md': {
+      routes:
+        | '/posts/mwnz'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/mznl.md': {
+      routes:
+        | '/posts/mznl'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/newage.md': {
+      routes:
+        | '/posts/newage'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/niepan.md': {
+      routes:
+        | '/posts/niepan'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/OB.md': {
+      routes:
+        | '/posts/OB'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/PCL-CE-N.md': {
       routes:
         | '/posts/PCL-CE-N'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/pxzj2.0.md': {
+      routes:
+        | '/posts/pxzj2.0'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/QA.md': {
+      routes:
+        | '/posts/QA'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/qq.md': {
+      routes:
+        | '/posts/qq'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/qunluanjy.md': {
+      routes:
+        | '/posts/qunluanjy'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/quweibao.md': {
+      routes:
+        | '/posts/quweibao'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/RSmx.md': {
+      routes:
+        | '/posts/RSmx'
       views:
         | never
       pathParamNames:
@@ -580,9 +1203,57 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/shdmx.md': {
+      routes:
+        | '/posts/shdmx'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/thelastday.md': {
+      routes:
+        | '/posts/thelastday'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/wrrm.md': {
+      routes:
+        | '/posts/wrrm'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/wxzz.md': {
+      routes:
+        | '/posts/wxzz'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/xgcz.md': {
+      routes:
+        | '/posts/xgcz'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/yang-lao.md': {
       routes:
         | '/posts/yang-lao'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/yhxw.md': {
+      routes:
+        | '/posts/yhxw'
       views:
         | never
       pathParamNames:
@@ -599,6 +1270,46 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/yi-kuan-mian-fei-yun-yin-le-bo-fang-qi.md': {
       routes:
         | '/posts/yi-kuan-mian-fei-yun-yin-le-bo-fang-qi'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/yj.md': {
+      routes:
+        | '/posts/yj'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/yqbns.md': {
+      routes:
+        | '/posts/yqbns'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/ysjx.md': {
+      routes:
+        | '/posts/ysjx'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/yuanli.md': {
+      routes:
+        | '/posts/yuanli'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/ZG-RPG.md': {
+      routes:
+        | '/posts/ZG-RPG'
       views:
         | never
       pathParamNames:
@@ -623,6 +1334,30 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/zhu-meng-wu-yu.md': {
       routes:
         | '/posts/zhu-meng-wu-yu'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/zlsf.md': {
+      routes:
+        | '/posts/zlsf'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/zy2.md': {
+      routes:
+        | '/posts/zy2'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/zzyh.md': {
+      routes:
+        | '/posts/zzyh'
       views:
         | never
       pathParamNames:

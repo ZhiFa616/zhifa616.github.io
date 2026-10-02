@@ -1,5 +1,7 @@
 ---
 title: 至高RPG
+cover: https://picui.ogmua.cn/s1/2026/09/18/6aad0c0a72b5c.webp
+date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 

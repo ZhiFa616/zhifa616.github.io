@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: '免费分享 Minecraft 整合包的小站',
   author: {
     name: '隙间互联',
-    avatar: 'https://avatars.githubusercontent.com/ZhiFa616',
+    avatar: 'https://img.remit.ee/i/AH4V4ok2D8eY',
     status: {
       emoji: '⛏️',
       message: '整合包施工中...',

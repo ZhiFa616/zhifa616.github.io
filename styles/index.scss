@@ -425,6 +425,15 @@ html.image-gallery-open {
   .sakura-post-list .post-list-container {
     grid-template-columns: minmax(0, 1fr) !important;
   }
+
+  /* 隐藏推荐文章与公告下的文章轮播卡（公告栏保留），缩短手机端页面 */
+  .sakura-featured-posts {
+    display: none !important;
+  }
+
+  .notice-board-wrap__article {
+    display: none !important;
+  }
 }
 
 

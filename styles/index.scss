@@ -420,10 +420,10 @@ html.image-gallery-open {
   gap: 1rem;
 }
 
-/* 手机端（<768px）：文章列表强制单列，卡片不挤压 */
+/* 手机端（<768px）：文章列表两列 */
 @media (max-width: 767px) {
   .sakura-post-list .post-list-container {
-    grid-template-columns: minmax(0, 1fr) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 
   /* 隐藏推荐文章与公告下的文章轮播卡（公告栏保留），缩短手机端页面 */

@@ -2,16 +2,16 @@
 import { useSiteConfig, useSiteStore } from 'valaxy'
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useAddonVercount } from 'valaxy-addon-vercount'
 
 const siteConfig = useSiteConfig()
 const site = useSiteStore()
 const router = useRouter()
 
-const { site: visitSite } = useAddonVercount()
-
 // 总字数：构建脚本生成 public/words.json（所有文章 wordCount 合计）
 const totalWords = ref(0)
+
+// 访问量：vercount 固定统计线上域名 mcntsb.club（避免本地预览 localhost 的共享计数）
+const pvText = ref('...')
 
 onMounted(async () => {
   try {
@@ -19,6 +19,19 @@ onMounted(async () => {
     const d = await r.json()
     if (d && typeof d.total === 'number')
       totalWords.value = d.total
+  }
+  catch {}
+
+  try {
+    const res = await fetch('https://cn.vercount.one/api/v2/log', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url: 'https://mcntsb.club/' }),
+    })
+    const data = await res.json()
+    const pv: number = data?.data?.site_pv
+    if (typeof pv === 'number')
+      pvText.value = formatK(pv)
   }
   catch {}
 })
@@ -34,10 +47,6 @@ function formatK(n: number): string {
 }
 
 const wordsText = computed(() => formatK(totalWords.value))
-const pvText = computed(() => {
-  const pv = visitSite.value?.pv as number | undefined
-  return pv == null ? '...' : formatK(pv)
-})
 </script>
 
 <template>

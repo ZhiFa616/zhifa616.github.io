@@ -20,6 +20,7 @@ watch(pageIndex, (value) => {
   <SakuraHomeLayout>
     <!-- 公告移到左侧栏，中间不再显示 -->
     <template #notice-board>
+      <span class="hidden" />
     </template>
 
     <!-- 左侧栏：头像 + 公告 -->

@@ -185,7 +185,8 @@ export default defineValaxyConfig({
       primary: themePrimary,
       postList: {
         responsive: {
-          xl: 1,
+          xl: 2,
+          lg: 2,
         }
      }
     },

@@ -50,7 +50,7 @@ const isGroup = computed(() => (props.cols ?? 1) > 1)
   border-style: solid;
 
   .post-card-content {
-    padding: 20px 39px;
+    padding: 14px 18px;
   }
 
   @at-root html.dark & {
@@ -65,7 +65,7 @@ const isGroup = computed(() => (props.cols ?? 1) > 1)
     flex-direction: column;
 
     .post-card-content {
-      padding-inline: 20px;
+      padding-inline: 14px;
 
       &.has-cover {
         width: 100%;
@@ -81,7 +81,7 @@ const isGroup = computed(() => (props.cols ?? 1) > 1)
     height: var(--sakura-post-card-height);
 
     .post-card-content {
-      padding: 20px 39px;
+      padding: 14px 18px;
 
       &.has-cover {
         width: calc(100% - var(--sakura-post-card-img-width));
@@ -107,7 +107,7 @@ const isGroup = computed(() => (props.cols ?? 1) > 1)
       }
 
       .post-card-content {
-        padding-inline: 20px;
+        padding-inline: 14px;
 
         &.has-cover {
           width: 100%;

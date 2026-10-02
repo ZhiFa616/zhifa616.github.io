@@ -57,8 +57,8 @@ const breakpointsStyle = computed<CSSProperties>(() => {
 <template>
   <div id="home-post-list" class="sakura-post-list">
     <SakuraDivider :icon :text />
-    <div :style="breakpointsStyle" class="post-list-container" grid="~ gap-4">
-      <div v-for="items, idx of parts" :key="idx" class="post-list-section" flex="~ col" grid="gap-5 md:gap-7">
+    <div :style="breakpointsStyle" class="post-list-container" grid="~ gap-3">
+      <div v-for="items, idx of parts" :key="idx" class="post-list-section" flex="~ col" grid="gap-4 md:gap-5">
         <SakuraPostCard v-for="(post, index) of items" :id="`article-${index * parts.length + idx}`" :key="post.path || index" :cols class="article-list" :position="(index % 2 === (isImageReversed ? 1 : 0) ? 'left' : 'right')" :post />
       </div>
     </div>

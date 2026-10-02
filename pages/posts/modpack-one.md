@@ -1,6 +1,8 @@
 ---
 id: uNDMZy
 title: 关于整合包的分享
+wordCount: 288
+readingTime: 1
 cover: https://user15793.cn.imgto.link/public/20260703/screenshot-2026-07-04-023431.avif
 date: 2026-07-04
 createdAt: "2026-07-04 04:28:17"

@@ -1,6 +1,8 @@
 ---
 id: 3ZmHer
 title: 免费32款音乐软件
+wordCount: 87
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/15/6aa82e21b4d10.webp
 date: 2026-09-15
 createdAt: "2026-09-15 04:38:41"

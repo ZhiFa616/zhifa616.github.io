@@ -1,5 +1,7 @@
 ---
 title: New Age  新时代
+wordCount: 168
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/18/6aacf8a7d3f34.webp
 date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"

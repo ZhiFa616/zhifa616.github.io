@@ -1,6 +1,8 @@
 ---
 id: d04puK
 title: Minecraft基础联机教程（一）
+wordCount: 570
+readingTime: 2
 cover: https://user15793.cn.imgto.link/public/20260701/2026-07-01-221722.avif
 date: 2026-07-02
 createdAt: "2026-07-02 05:42:22"

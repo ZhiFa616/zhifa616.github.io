@@ -1,6 +1,8 @@
 ---
 
 title: 魔之逆鳞  
+wordCount: 37
+readingTime: 1
 cover: https://img.remit.ee/i/nJQOfsujx0Yt
 date: 2026-09-26
 createdAt: "2026-09-26 14:30:00"

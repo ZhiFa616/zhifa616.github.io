@@ -1,5 +1,7 @@
 ---
 title: 阿卡迪亚的天启1.8正式版
+wordCount: 51
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/17/6aab9a88dd17f.webp
 date: 2026-09-17
 createdAt: "2026-09-17 14:30:00"

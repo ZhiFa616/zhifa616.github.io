@@ -1,6 +1,8 @@
 ---
 
 title:  地下酒吧
+wordCount: 49
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa4dfa771c.webp
 date: 2026-09-17
 createdAt: "2026-09-17 00:30:00"

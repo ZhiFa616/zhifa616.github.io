@@ -1,6 +1,8 @@
 ---
 
 title: 剑痕纪元
+wordCount: 48
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa2b9af871.webp
 date: 2026-09-17
 createdAt: "2026-09-17 00:30:00"

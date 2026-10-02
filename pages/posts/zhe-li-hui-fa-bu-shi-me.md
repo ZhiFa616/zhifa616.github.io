@@ -1,6 +1,8 @@
 ---
 id: tD2MOE
 title: 这里会发布什么？
+wordCount: 318
+readingTime: 1
 date: 2026-06-28
 createdAt: "2026-06-28 17:41:11"
 updated: "2026-06-28 17:41:11"

@@ -1,6 +1,8 @@
 ---
 id: EAiACX
 title: 关于
+wordCount: 338
+readingTime: 1
 cover: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEVfxZqLv8ci3vLjhD0S-SryU_qY49MVQACAy4AAhZseFVgsjoBo4N2-DwE.jpg
 date: 2019-01-25
 createdAt: "2019-01-25 19:09:48"

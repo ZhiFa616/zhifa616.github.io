@@ -1,12 +1,43 @@
 <script lang="ts" setup>
-import { useCategories, useSiteConfig, useSiteStore, useTags } from 'valaxy'
+import { useSiteConfig, useSiteStore } from 'valaxy'
+import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { useAddonVercount } from 'valaxy-addon-vercount'
 
 const siteConfig = useSiteConfig()
 const site = useSiteStore()
-const categories = useCategories()
-const tags = useTags()
 const router = useRouter()
+
+const { site: visitSite } = useAddonVercount()
+
+// 总字数：构建脚本生成 public/words.json（所有文章 wordCount 合计）
+const totalWords = ref(0)
+
+onMounted(async () => {
+  try {
+    const r = await fetch('/words.json')
+    const d = await r.json()
+    if (d && typeof d.total === 'number')
+      totalWords.value = d.total
+  }
+  catch {}
+})
+
+function formatK(n: number): string {
+  if (Number.isNaN(n) || n === 0)
+    return '0'
+  if (n >= 10000)
+    return `${(n / 1000).toFixed(1)}k`
+  if (n >= 1000)
+    return `${(n / 1000).toFixed(1)}k`
+  return String(n)
+}
+
+const wordsText = computed(() => formatK(totalWords.value))
+const pvText = computed(() => {
+  const pv = visitSite.value?.pv as number | undefined
+  return pv == null ? '...' : formatK(pv)
+})
 </script>
 
 <template>
@@ -40,12 +71,12 @@ const router = useRouter()
         <span class="content-number">{{ site.postList.length }}</span>
       </div>
       <div class="label">
-        <span class="content-text">标签</span><br>
-        <span class="content-number">{{ Array.from(tags).length }}</span>
+        <span class="content-text">字数</span><br>
+        <span class="content-number">{{ wordsText }}</span>
       </div>
       <div class="category">
-        <span class="content-text">分类</span><br>
-        <span class="content-number">{{ Array.from(categories.children).length }}</span>
+        <span class="content-text">访问</span><br>
+        <span class="content-number">{{ pvText }}</span>
       </div>
     </div>
   </SakuraCard>

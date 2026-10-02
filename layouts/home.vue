@@ -23,6 +23,11 @@ watch(pageIndex, (value) => {
       <span class="hidden" />
     </template>
 
+    <!-- 中间顶部：四篇推荐卡片（可左右切换） -->
+    <template #post-pinned>
+      <SakuraFeaturedPosts />
+    </template>
+
     <!-- 左侧栏：头像 + 公告 -->
     <template #left>
       <SakuraSiteInfoCard />

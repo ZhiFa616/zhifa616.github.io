@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && node scripts/build-ssg.mjs",
+    "build": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && node scripts/add-words.cjs && node scripts/build-ssg.mjs",
     "build:spa": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && valaxy build",
     "build:ssg": "node scripts/add-date.cjs && node scripts/extract-cover.cjs && node scripts/build-ssg.mjs",
     "build:ssg:raw": "valaxy build --ssg",

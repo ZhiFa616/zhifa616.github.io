@@ -1,5 +1,7 @@
 ---
 title: 卓越2更新版4.1.0
+wordCount: 54
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/20/6aaed27cad7d7.webp
 date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"

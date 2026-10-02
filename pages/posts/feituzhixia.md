@@ -1,6 +1,8 @@
 ---
 id: WbJ2Ql
 title: 废土之下-废墟之城
+wordCount: 148
+readingTime: 1
 date: 2026-09-15
 createdAt: "2026-09-15 12:15:22"
 updated: "2026-09-15 12:15:22"

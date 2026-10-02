@@ -1,6 +1,8 @@
 ---
 
 title: 黄油！加入官方群！
+wordCount: 134
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/20/6aaee02717573.webp
 date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"

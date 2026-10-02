@@ -93,4 +93,12 @@ export default defineSiteConfig({
 
   // 代码块超过该高度（px）时自动折叠，点击底部按钮可展开
   codeHeightLimit: 360,
+
+  // 统计阅读时间和字数
+  statistics: {
+    enable: true,
+    readTime: {
+      speed: { cn: 300, en: 100 },
+    },
+  },
 })

@@ -1,6 +1,8 @@
 ---
 
 title: 放逐之路2；2.0更新版  
+wordCount: 96
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/16/6aa9919e30581.webp
 date: 2026-09-16
 createdAt: "2026-09-16 02:40:00"

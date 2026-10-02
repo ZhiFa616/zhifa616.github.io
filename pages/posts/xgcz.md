@@ -1,6 +1,8 @@
 ---
 
 title: 星轨重铸·残响-测试版  
+wordCount: 65
+readingTime: 1
 cover: https://img.remit.ee/i/vPpz0AotR1CY
 date: 2026-09-27
 createdAt: "2026-09-27 14:30:00"

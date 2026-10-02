@@ -1,6 +1,8 @@
 ---
 
 title: 圆理 
+wordCount: 92
+readingTime: 1
 cover: https://img.remit.ee/i/QqcCtCkxt0Wd
 date: 2026-09-21
 createdAt: "2026-09-21 14:30:00"

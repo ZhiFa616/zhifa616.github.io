@@ -1,6 +1,8 @@
 ---
 
 title: Java全版本下载源-中国站  
+wordCount: 67
+readingTime: 1
 cover: https://img.remit.ee/i/kYZjoxUf8zsy
 date: 2026-09-30
 createdAt: "2026-09-30 14:30:00"

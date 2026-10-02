@@ -1,6 +1,8 @@
 ---
 id: FCSGlA
 title: 123云盘去广告绿色精简版
+wordCount: 225
+readingTime: 1
 cover: https://user15793.cn.imgto.link/public/20260703/screenshot-2026-07-04-050938.avif
 date: 2026-07-04
 createdAt: "2026-07-04 05:05:09"

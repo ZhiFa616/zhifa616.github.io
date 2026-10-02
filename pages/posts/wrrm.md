@@ -1,6 +1,8 @@
 ---
 
 title: 无人入眠  
+wordCount: 83
+readingTime: 1
 cover: https://img.remit.ee/i/blRLtpGgRg6D
 date: 2026-09-29
 createdAt: "2026-09-29 14:30:00"

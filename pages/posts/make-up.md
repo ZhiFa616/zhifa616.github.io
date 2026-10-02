@@ -1,6 +1,8 @@
 ---
 id: cXCtMp
 title: MC低配光影
+wordCount: 93
+readingTime: 1
 cover: https://user16259.cn.imgto.link/public/20260707/screenshot-2026-07-07-155044.avif
 date: 2026-07-07
 createdAt: "2026-07-07 15:43:50"

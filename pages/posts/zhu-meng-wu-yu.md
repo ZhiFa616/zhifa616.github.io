@@ -1,6 +1,8 @@
 ---
 id: XtoxGl
 title: 一款建筑向整合包
+wordCount: 161
+readingTime: 1
 cover: https://user16259.cn.imgto.link/public/20260707/screenshot-2026-07-07-161425.avif
 date: 2026-07-07
 createdAt: "2026-07-07 16:12:29"

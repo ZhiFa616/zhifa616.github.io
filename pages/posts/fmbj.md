@@ -1,5 +1,7 @@
 ---
 title: 覆魔边疆
+wordCount: 42
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/18/6aad070f76be9.webp
 date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"

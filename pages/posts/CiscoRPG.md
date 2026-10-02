@@ -1,5 +1,7 @@
 ---
 title: Cisco的幻想中世纪
+wordCount: 49
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/18/6aad09424dfc5.webp
 date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"

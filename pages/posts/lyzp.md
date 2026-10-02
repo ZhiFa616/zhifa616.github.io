@@ -1,5 +1,7 @@
 ---
 title: 涟漪之篇
+wordCount: 199
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/20/6aaed90301f3b.webp
 date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"

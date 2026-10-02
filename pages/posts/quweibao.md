@@ -1,6 +1,8 @@
 ---
 
 title: 趣味包全类型 
+wordCount: 86
+readingTime: 1
 cover: https://img.remit.ee/i/rhlQeM6OaESc
 date: 2026-09-30
 createdAt: "2026-09-30 14:30:00"

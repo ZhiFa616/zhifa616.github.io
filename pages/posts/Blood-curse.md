@@ -1,6 +1,8 @@
 ---
 
 title: 恐怖地图：血咒
+wordCount: 148
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/25/6ab654b2c00e3.webp
 date: 2026-09-25
 createdAt: "2026-09-25 14:30:00"

@@ -1,6 +1,8 @@
 ---
 
 title: 涅槃
+wordCount: 53
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/16/6aaa9f29da27d.webp
 date: 2026-09-17
 createdAt: "2026-09-17 00:00:00"

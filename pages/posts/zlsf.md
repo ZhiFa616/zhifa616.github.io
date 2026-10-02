@@ -1,6 +1,8 @@
 ---
 
 title: 纵岭高峰  
+wordCount: 250
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/25/6ab697f3e080d.webp
 date: 2026-09-26
 createdAt: "2026-09-26 14:30:00"

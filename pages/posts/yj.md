@@ -1,5 +1,7 @@
 ---
 title: 异界
+wordCount: 42
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/20/6aaed6e576493.webp
 date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"

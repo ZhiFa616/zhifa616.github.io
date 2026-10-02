@@ -1,6 +1,8 @@
 ---
 
 title: Upgrader items [mod]
+wordCount: 52
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/25/6ab677ab3e72a.webp
 date: 2026-09-24
 createdAt: "2026-09-24 14:30:00"

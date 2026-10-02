@@ -1,6 +1,8 @@
 ---
 
 title: 坠毁（火星迫降）
+wordCount: 78
+readingTime: 1
 cover: https://img.remit.ee/i/bwI2Y57YNxi8
 date: 2026-09-28
 createdAt: "2026-09-28 14:30:00"

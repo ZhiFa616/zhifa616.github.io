@@ -1,5 +1,7 @@
 ---
 title: 暗涌：深岩恐惧
+wordCount: 77
+readingTime: 1
 cover: https://picui.ogmua.cn/s1/2026/09/18/6aac272160f46.webp
 date: 2026-09-18
 createdAt: "2026-09-18 00:30:00"

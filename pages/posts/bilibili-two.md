@@ -1,6 +1,8 @@
 ---
 id: 9XNJAA
 title: 一款Android上基于bilibili的免费音乐播放器
+wordCount: 224
+readingTime: 1
 cover: https://user15793.cn.imgto.link/public/20260703/20260704041836-225-5.avif
 date: 2026-07-04
 createdAt: "2026-07-04 12:17:04"

@@ -1,6 +1,8 @@
 ---
 
 title: 沉浸战斗最新版  
+wordCount: 51
+readingTime: 1
 cover: https://img.remit.ee/i/zrencXFLRqHp
 date: 2026-09-30
 createdAt: "2026-09-30 14:30:00"

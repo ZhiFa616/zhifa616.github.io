@@ -1,6 +1,8 @@
 ---
 id: 426AYI
 title: 上线啦！
+wordCount: 154
+readingTime: 1
 date: 2026-06-13
 createdAt: "2026-06-13 02:48:32"
 updated: "2026-07-03 03:31:00"

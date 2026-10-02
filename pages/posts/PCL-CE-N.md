@@ -1,6 +1,8 @@
 ---
 id: jfZ3dV
 title: 一款支持自动安装前置依赖的启动器
+wordCount: 252
+readingTime: 1
 cover: https://user15793.cn.imgto.link/public/20260703/screenshot-2026-07-04-044942.avif
 date: 2026-07-04
 createdAt: "2026-07-04 04:37:52"

@@ -1,6 +1,8 @@
 ---
 id: OW2Qw4
 title: 一款bilibili音乐播放器
+wordCount: 145
+readingTime: 1
 cover: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEWNjRqQFcOPdMJc8sWODy6jGlCaxn-lwACuSQAAq3jAAFWXWKmaBXBkog8BA.png
 date: 2026-06-28
 createdAt: "2026-06-28 15:01:49"

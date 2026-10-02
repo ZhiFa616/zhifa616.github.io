@@ -383,6 +383,15 @@ html.image-gallery-open {
   align-items: center;
 }
 
+/* 首页三栏响应式：<1024px（手机/平板）单列堆叠（左栏→中间→右栏），≥1024px 三栏 250/自适应/280 */
+.sakura-home-layout.sakura-triple-columns {
+  grid-template-columns: minmax(0, 1fr) !important;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 250px minmax(0, 1fr) 280px !important;
+  }
+}
+
 .sakura-home-layout.sakura-triple-columns-base.sakura-one-columns {
   box-sizing: border-box;
   width: 100%;
@@ -409,6 +418,13 @@ html.image-gallery-open {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
+}
+
+/* 手机端（<768px）：文章列表强制单列，卡片不挤压 */
+@media (max-width: 767px) {
+  .sakura-post-list .post-list-container {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
 }
 
 

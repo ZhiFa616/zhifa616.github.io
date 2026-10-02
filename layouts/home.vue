@@ -40,21 +40,3 @@ watch(pageIndex, (value) => {
     </template>
   </SakuraHomeLayout>
 </template>
-
-<style>
-/* 三栏布局：左 250px / 中间自适应 / 右 280px（参考 daily.yybb.us） */
-.sakura-home-layout.sakura-triple-columns {
-  @media (min-width: 1024px) {
-    grid-template-columns: 250px minmax(0, 1fr) 280px !important;
-  }
-
-  @media (min-width: 1280px) {
-    grid-template-columns: 250px minmax(0, 1fr) 280px !important;
-  }
-}
-
-/* 侧栏卡片之间留间距 */
-.sakura-home-layout aside > * + * {
-  margin-top: 1rem;
-}
-</style>

@@ -1,0 +1,1 @@
+import{Bt as e,K as t,t as n}from"./framework.BqTbeEo9.js";import{r}from"./theme.lp1zIe1v.js";import"./chunks/vue-i18n.ZNKn3QqI.js";var i={};function a(n,r){return e(),t(`div`)}typeof r==`function`&&r(i);var o=n(i,[[`render`,a]]);export{o as default};

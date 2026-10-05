@@ -1,44 +1,107 @@
 <script lang="ts" setup>
-import { usePostList, useThemeConfig } from 'valaxy'
-import { computed, ref } from 'vue'
+import { usePostList, useSiteConfig, useThemeConfig } from 'valaxy'
+import { computed, onMounted, ref } from 'vue'
 
 const PER_PAGE = 4
+const CACHE_KEY = 'mcntsb_featured_pv_v1'
+const CACHE_TTL = 24 * 60 * 60 * 1000 // 24h 缓存，避免重复查询与重复计数
 
 const posts = usePostList()
 const themeConfig = useThemeConfig()
+const siteConfig = useSiteConfig()
 
 const defaultImage = computed(() => {
   const fallback = themeConfig.value.postList?.defaultImage
   return Array.isArray(fallback) ? fallback[0] : (fallback || '')
 })
 
-const offset = ref(0)
+const hotPosts = ref<any[]>([])
+const loading = ref(true)
 
-const pageCount = computed(() => Math.max(1, Math.ceil(posts.value.length / PER_PAGE)))
+const baseUrl = computed(() =>
+  String(siteConfig.value.url || 'https://mcntsb.club').replace(/\/+$/, ''),
+)
 
-const currentPosts = computed(() => {
-  const start = offset.value * PER_PAGE
-  return posts.value.slice(start, start + PER_PAGE)
+function loadCache(): Record<string, number> | null {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY)
+    if (!raw)
+      return null
+    const data = JSON.parse(raw)
+    if (!data || !data.ts || Date.now() - data.ts > CACHE_TTL)
+      return null
+    return data.pv || null
+  }
+  catch {
+    return null
+  }
+}
+
+function saveCache(pv: Record<string, number>) {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), pv }))
+  }
+  catch {}
+}
+
+async function queryPv(url: string): Promise<number> {
+  try {
+    const r = await fetch('https://cn.vercount.one/api/v2/log', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url }),
+    })
+    const d = await r.json()
+    return Number(d?.data?.page_pv) || 0
+  }
+  catch {
+    return 0
+  }
+}
+
+onMounted(async () => {
+  const items = [...posts.value]
+  if (!items.length) {
+    loading.value = false
+    return
+  }
+
+  const cached = loadCache()
+  if (cached) {
+    const sorted = items
+      .map(p => ({ post: p, pv: cached[p.path] || 0 }))
+      .sort((a, b) => b.pv - a.pv)
+    hotPosts.value = sorted.slice(0, PER_PAGE).map(x => x.post)
+    loading.value = false
+    return
+  }
+
+  // 无缓存：分批查询全站文章查看数（每批 12 个，避免并发过多）
+  const pvMap: Record<string, number> = {}
+  const batch = 12
+  for (let i = 0; i < items.length; i += batch) {
+    const slice = items.slice(i, i + batch)
+    await Promise.all(slice.map(async (p) => {
+      pvMap[p.path] = await queryPv(baseUrl.value + p.path)
+    }))
+  }
+  saveCache(pvMap)
+
+  const sorted = items
+    .map(p => ({ post: p, pv: pvMap[p.path] || 0 }))
+    .sort((a, b) => b.pv - a.pv)
+  hotPosts.value = sorted.slice(0, PER_PAGE).map(x => x.post)
+  loading.value = false
 })
-
-const pageIndex = computed(() => offset.value + 1)
-
-function prev() {
-  offset.value = (offset.value - 1 + pageCount.value) % pageCount.value
-}
-
-function next() {
-  offset.value = (offset.value + 1) % pageCount.value
-}
 </script>
 
 <template>
   <div class="sakura-featured-posts">
-    <SakuraDivider icon="i-ant-design:star-outlined" text="☆ 推荐文章" />
+    <SakuraDivider icon="i-ant-design:fire-outlined" text="☆ 最热文章" />
 
     <div class="featured-grid">
       <RouterLink
-        v-for="post in currentPosts"
+        v-for="post in (loading ? posts.slice(0, PER_PAGE) : hotPosts)"
         :key="post.path"
         :to="post.path"
         class="sakura-card featured-card"
@@ -60,16 +123,6 @@ function next() {
           {{ post.excerpt }}
         </p>
       </RouterLink>
-    </div>
-
-    <div class="featured-nav">
-      <button type="button" class="featured-nav-btn" @click="prev">
-        ← 上一篇置顶
-      </button>
-      <span class="featured-page">{{ pageIndex }} / {{ pageCount }}</span>
-      <button type="button" class="featured-nav-btn" @click="next">
-        下一篇置顶 →
-      </button>
     </div>
   </div>
 </template>
@@ -162,36 +215,6 @@ function next() {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   word-break: break-word;
-}
-
-.featured-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 12px;
-}
-
-.featured-nav-btn {
-  padding: 4px 14px;
-  font-size: 0.85rem;
-  color: var(--sakura-color-text);
-  background: color-mix(in srgb, var(--sakura-color-primary) 10%, transparent);
-  border: 1px solid var(--sakura-color-divider);
-  border-radius: 999px;
-  cursor: pointer;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-
-  &:hover {
-    color: var(--sakura-color-primary);
-    border-color: var(--sakura-color-primary);
-    background: color-mix(in srgb, var(--sakura-color-primary) 16%, transparent);
-  }
-}
-
-.featured-page {
-  font-size: 0.85rem;
-  color: var(--sakura-color-text-muted);
 }
 
 @media (max-width: 768px) {

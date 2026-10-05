@@ -297,6 +297,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/invitation': RouteRecordInfo<
+      '/posts/invitation',
+      '/posts/invitation',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/Java': RouteRecordInfo<
       '/posts/Java',
       '/posts/Java',
@@ -966,6 +973,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hzqsl.md': {
       routes:
         | '/posts/hzqsl'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/invitation.md': {
+      routes:
+        | '/posts/invitation'
       views:
         | never
       pathParamNames:

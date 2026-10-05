@@ -1,5 +1,9 @@
 ---
 title: 关于养老向整合包问题的招募  
+wordCount: 392
+readingTime: 1
+cover: https://img.remit.ee/i/dRihmxBEV4ol
+date: 2026-10-04
 createdAt: "2026-10-04 00:30:00"
 --------------------------------
 

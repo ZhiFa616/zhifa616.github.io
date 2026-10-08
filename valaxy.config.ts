@@ -285,8 +285,8 @@ export default defineValaxyConfig({
       api: 'intl',
     }),
     addonTwikoo({
-      // Netlify 部署的 Twikoo 云函数地址
-      envId: 'https://twikoo-cccp.netlify.app/.netlify/functions/twikoo',
+      // Cloudflare Workers 部署的 Twikoo 云函数地址
+      envId: 'https://twikoo.mcntsb.club',
     }),
   ],
 })

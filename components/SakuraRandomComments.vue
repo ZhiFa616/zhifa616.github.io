@@ -2,8 +2,8 @@
 import { onMounted, ref } from 'vue'
 import { useSiteConfig } from 'valaxy'
 
-// Netlify 部署的 Twikoo 云函数地址（与 valaxy.config.ts 的 addonTwikoo envId 一致）
-const ENV_ID = 'https://twikoo-cccp.netlify.app/.netlify/functions/twikoo'
+// Cloudflare Workers 部署的 Twikoo 云函数地址（与 valaxy.config.ts 的 addonTwikoo envId 一致）
+const ENV_ID = 'https://twikoo.mcntsb.club'
 const PAGE_SIZE = 15 // 取最近 15 条再随机挑
 const SHOW_COUNT = 4
 

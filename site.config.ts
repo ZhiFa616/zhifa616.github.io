@@ -3,8 +3,8 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://mcntsb.club',
   cdn: {
-    // 国内 CDN 镜像（zstatic，格式与 unpkg 兼容），避免 unpkg 在国内加载慢/失败
-    prefix: 'https://s4.zstatic.net/npm/',
+    // twikoo SDK 本地化（public/twikoo-cdn），避免外网 CDN 加载慢/失败
+    prefix: '/twikoo-cdn/',
   },
   lang: 'zh-CN',
   title: '隙间互联',

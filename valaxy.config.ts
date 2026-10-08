@@ -1,6 +1,7 @@
 import { defineValaxyConfig } from 'valaxy'
 import { addonVercount } from 'valaxy-addon-vercount'
 import { addonHitokoto } from 'valaxy-addon-hitokoto'
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 import { vaFoucLoader } from './plugins/va-fouc-loader'
 import { disableSsgHydration } from './plugins/disable-ssg-hydration'
 import siteConfig from './site.config'
@@ -160,9 +161,9 @@ export default defineValaxyConfig({
   },
 
   siteConfig: {
-    // 启用评论
+    // 启用评论（Twikoo）
     comment: {
-      enable: false
+      enable: true
     },
   },
   theme: 'sakura',    //主题设置
@@ -282,6 +283,10 @@ export default defineValaxyConfig({
     }),
     addonHitokoto({
       api: 'intl',
+    }),
+    addonTwikoo({
+      // Netlify 部署的 Twikoo 云函数地址
+      envId: 'https://twikoo-cccp.netlify.app/.netlify/functions/twikoo',
     }),
   ],
 })

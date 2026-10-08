@@ -2,6 +2,10 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://mcntsb.club',
+  cdn: {
+    // 国内 CDN 镜像（zstatic，格式与 unpkg 兼容），避免 unpkg 在国内加载慢/失败
+    prefix: 'https://s4.zstatic.net/npm/',
+  },
   lang: 'zh-CN',
   title: '隙间互联',
   subtitle: '免费分享 Minecraft 整合包的小站',

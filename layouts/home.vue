@@ -34,9 +34,10 @@ watch(pageIndex, (value) => {
       <SakuraNoticeBoard class="mt-6" />
     </template>
 
-    <!-- 右侧栏：随机文章 -->
+    <!-- 右侧栏：随机文章 + 随机评论 -->
     <template #right>
       <SakuraRandomPosts />
+      <SakuraRandomComments />
     </template>
   </SakuraHomeLayout>
 </template>

@@ -3,7 +3,7 @@
 title: 关于隙间互联与官方群的必读声明。  
 wordCount: 732  
 readingTime: 2  
-cover: [1920X960/微信图片_20260927152832_332_5.png](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/zQa6/1920X960/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260927152832_332_5.png) 
+cover: https://img2.tofaka.com/autoupload/f/bzp9r/20261009/zQa6/1920X960/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260927152832_332_5.png 
 date: 2026-09-27  
 createdAt: "2026-09-27 14:30:00"
 --------------------------------

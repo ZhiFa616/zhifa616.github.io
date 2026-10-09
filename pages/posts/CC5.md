@@ -3,7 +3,7 @@
 title: Crazy Crave 5  
 wordCount: 59  
 readingTime: 1  
-cover: [屏幕截图 2026-10-09 182357.png](https://cdn.dbimg.app/l6n1J9mZ.png)
+cover: https://cdn.dbimg.app/l6n1J9mZ.png
 date: 2026-09-18  
 createdAt: "2026-09-18 14:30:00"
 --------------------------------

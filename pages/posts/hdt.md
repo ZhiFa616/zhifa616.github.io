@@ -3,7 +3,7 @@
 title: 核冬天  
 wordCount: 231  
 readingTime: 1  
-cover: [屏幕截图 2026-10-09 194406.png](https://cdn.dbimg.app/Ooaw7E3P.png)
+cover: https://cdn.dbimg.app/Ooaw7E3P.png
 date: 2026-09-18  
 createdAt: "2026-09-18 14:30:00"
 --------------------------------

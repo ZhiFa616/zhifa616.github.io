@@ -3,7 +3,7 @@
 title: 新包出炉！《直至永恒》！  
 wordCount: 85  
 readingTime: 1  
-cover: [屏幕截图 2026-10-09 172420.png](https://cdn.dbimg.app/igOlO3gT.png)
+cover: https://cdn.dbimg.app/igOlO3gT.png
 date: 2026-09-19  
 createdAt: "2026-09-19 14:30:00"
 --------------------------------

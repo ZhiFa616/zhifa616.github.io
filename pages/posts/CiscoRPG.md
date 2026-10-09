@@ -3,7 +3,7 @@
 title: Cisco的幻想中世纪  
 wordCount: 49  
 readingTime: 1  
-cover: [屏幕截图 2026-10-09 182333.png](https://cdn.dbimg.app/qBnA66lW.png)
+cover: https://cdn.dbimg.app/qBnA66lW.png
 date: 2026-09-18  
 createdAt: "2026-09-18 14:30:00"
 --------------------------------

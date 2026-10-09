@@ -3,7 +3,7 @@
 title: 放逐之路2；2.0更新版  
 wordCount: 96  
 readingTime: 1  
-cover: [屏幕截图 2026-10-09 173358.png](https://cdn.dbimg.app/DVKc4tlm.png)
+cover: https://cdn.dbimg.app/DVKc4tlm.png
 date: 2026-09-16  
 createdAt: "2026-09-16 02:40:00"
 --------------------------------

@@ -3,7 +3,7 @@
 title: FTB自动翻译mod  
 wordCount: 76  
 readingTime: 1  
-cover:[屏幕截图 2026-10-09 193757.png](https://cdn.dbimg.app/096Q2z3k.png) 
+cover: https://cdn.dbimg.app/096Q2z3k.png 
 date: 2026-09-18  
 createdAt: "2026-09-18 14:30:00"
 --------------------------------

@@ -3,7 +3,7 @@
 title: 洪灾启示录  
 wordCount: 87  
 readingTime: 1  
-cover: [屏幕截图 2026-10-09 181718.png](https://cdn.dbimg.app/qYnTIZl2.png) 
+cover: https://cdn.dbimg.app/qYnTIZl2.png 
 date: 2026-09-17  
 createdAt: "2026-09-17 14:30:00"
 --------------------------------

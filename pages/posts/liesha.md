@@ -3,7 +3,7 @@
 title: 猎杀：历史1949  
 wordCount: 71  
 readingTime: 1  
-cover: [屏幕截图 2026-10-09 181635.png](https://cdn.dbimg.app/aQZNXiPW.png)
+cover: https://cdn.dbimg.app/aQZNXiPW.png
 date: 2026-09-17  
 createdAt: "2026-09-17 00:00:00"
 --------------------------------

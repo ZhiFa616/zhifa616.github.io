@@ -1,26 +1,26 @@
 ---
-id: WbJ2Ql
-title: 废土之下-废墟之城
-wordCount: 148
-readingTime: 1
-date: 2026-09-15
-createdAt: "2026-09-15 12:15:22"
-updated: "2026-09-15 12:15:22"
-tags:
-    - 整合包
-tag_ids:
-    - e7lSbu
-categories: []
-published: true
-hideInList: false
-cover: https://cdn.dbimg.app/PqqlLqaX8.png
+
+id: WbJ2Ql  
+title: 废土之下-废墟之城  
+wordCount: 148  
+readingTime: 1  
+date: 2026-09-15  
+createdAt: "2026-09-15 12:15:22"  
+updated: "2026-09-15 12:15:22"  
+tags:  
+- 整合包  
+tag_ids:  
+- e7lSbu  
+categories: []  
+published: true  
+hideInList: false  
+cover: [屏幕截图 2026-10-09 172612.png](https://cdn.dbimg.app/PqqLqaX8.png)
 isTop: false
----
+------------
 
 ## 整合包：废土之下-废墟之城。
 
-
-![屏幕截图 2026-10-09 172612.png](https://cdn.dbimg.app/PqqlLqaX8.png)
+![屏幕截图 2026-10-09 172612.png](https://cdn.dbimg.app/PqqLqaX8.png)
 
 发售日期：2026-8-04  
 当前为1.4.3正式版，后续版本如有更新可至官方Q群联系我们更新。
@@ -43,5 +43,4 @@ isTop: false
 }
 </style>
 
-<a href="https://www.guangyapan.com/s/1946646996860194885_aep5xMx_SppFMmgb" class="my-button" target="_blank">下载</a>
----------------------------------
+## <a href="https://www.guangyapan.com/s/1946646996860194885_aep5xMx_SppFMmgb" class="my-button" target="_blank">下载</a>

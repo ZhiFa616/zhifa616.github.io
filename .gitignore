@@ -37,3 +37,8 @@ public/atom.xml
 public/feed.json
 .obsidian
 dist
+
+# 本地化 twikoo SDK（public/twikoo-cdn 内含 dist 子目录，会被上面的 dist 规则误忽略；
+# 该文件必须随仓库部署到 Cloudflare Pages，否则线上评论/随机评论加载 SDK 404）
+!public/twikoo-cdn/
+!public/twikoo-cdn/**

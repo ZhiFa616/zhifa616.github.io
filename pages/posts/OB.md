@@ -3,12 +3,12 @@
 title:  Other Body
 wordCount: 41
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/25/6ab6811869280.webp
+cover: https://img2.tofaka.com/autoupload/f/bzp9r/20261009/XFzA/1912X1065/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-10-09_171812.png
 date: 2026-09-22
 createdAt: "2026-09-22 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-25 221008.png](https://picui.ogmua.cn/s1/2026/09/25/6ab6811869280.webp)
+![1912X1065/屏幕截图_2026-10-09_171812.png](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/XFzA/1912X1065/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-10-09_171812.png)
 
 主题玩法：末日求生
 

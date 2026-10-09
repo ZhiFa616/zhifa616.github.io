@@ -2,12 +2,12 @@
 title: 一款生存必备小屋 
 wordCount: 66
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/25/6ab67923a9436.webp
+cover: https://img2.tofaka.com/autoupload/f/bzp9r/20261009/PxsQ/1911X1059/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-09-25_213705.png
 date: 2026-09-23
 createdAt: "2026-09-23 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-25 213705.png](https://picui.ogmua.cn/s1/2026/09/25/6ab67923a9436.webp)
+![1911X1059/屏幕截图_2026-09-25_213705.png](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/PxsQ/1911X1059/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-09-25_213705.png)
 
 百度搬运
 

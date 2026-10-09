@@ -3,23 +3,23 @@
 title: 纵岭高峰  
 wordCount: 250
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/25/6ab697f3e080d.webp
+cover: https://img2.tofaka.com/autoupload/f/bzp9r/20261009/UjBO/1920X1001/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260925234738_327_5.jpg
 date: 2026-09-26
 createdAt: "2026-09-26 14:30:00"
 --------------------------------
 
 图1
-![微信图片_20260925234738_327_5.jpg](https://picui.ogmua.cn/s1/2026/09/25/6ab697f3e080d.webp)
+![1920X1001/微信图片_20260925234738_327_5.jpg](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/UjBO/1920X1001/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260925234738_327_5.jpg)
 
 图2
 
-![微信图片_20260925234737_326_5.jpg](https://picui.ogmua.cn/s1/2026/09/25/6ab697f3d3e42.webp)
+![1920X1001/微信图片_20260925234737_326_5.jpg](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/KF88/1920X1001/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260925234737_326_5.jpg)
 
 图3
-![微信图片_20260925234741_329_5.jpg](https://picui.ogmua.cn/s1/2026/09/25/6ab697f3e5316.webp)
+![1920X1001/微信图片_20260925234741_329_5.jpg](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/6owG/1920X1001/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260925234741_329_5.jpg)
 
 图4
-![微信图片_20260925234739_328_5.jpg](https://picui.ogmua.cn/s1/2026/09/25/6ab697f3de92c.webp)
+![1920X1001/微信图片_20260925234739_328_5.jpg](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/yJhW/1920X1001/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260925234739_328_5.jpg)
 
 
 

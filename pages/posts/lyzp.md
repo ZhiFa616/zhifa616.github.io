@@ -2,12 +2,12 @@
 title: 涟漪之篇
 wordCount: 199
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/20/6aaed90301f3b.webp
+cover: https://s41.ax1x.com/2026/10/09/pnNIk0x.png
 date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-20 024740.png](https://picui.ogmua.cn/s1/2026/09/20/6aaed90301f3b.webp)
+![pnNIk0x.png](https://s41.ax1x.com/2026/10/09/pnNIk0x.png)
 
 主题玩法：不详，自行研究，据称为战斗冒险超级爽包
 

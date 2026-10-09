@@ -3,12 +3,12 @@
 title: 关于隙间互联与官方群的必读声明。  
 wordCount: 732
 readingTime: 2
-cover: https://picui.ogmua.cn/s1/2026/09/26/6ab6e09d82262.webp
+cover: https://img2.tofaka.com/autoupload/f/bzp9r/20261009/mxeA/1909X1056/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-10-09_170258.png
 date: 2026-09-27
 createdAt: "2026-09-27 14:30:00"
 --------------------------------
 
-![【哲风壁纸】二次元-侧脸少女.jpg](https://picui.ogmua.cn/s1/2026/09/26/6ab6e09d82262.webp)
+![1909X1056/屏幕截图_2026-10-09_170258.png](https://img2.tofaka.com/autoupload/f/bzp9r/20261009/mxeA/1909X1056/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-10-09_170258.png)
 
 关于我们·你需要知道的：
 （一）：

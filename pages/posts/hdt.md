@@ -3,12 +3,12 @@
 title: 核冬天 
 wordCount: 231
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/18/6aacf66f51a0a.webp
+cover: https://matuimg.com/m/2026/10/09/stv211.png
 date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-18 162835.png](https://picui.ogmua.cn/s1/2026/09/18/6aacf66f51a0a.webp)
+![img](https://matuimg.com/m/2026/10/09/stv211.png)
 在一个彻底改造、濒临死亡、极端冷热交织的世界中生存。
 它将你抛入一个被核灾难摧毁的冰封废土，整个世界被永久的寒冬笼罩，暴风雪肆虐，生存成为每一天最残酷的考验。
 

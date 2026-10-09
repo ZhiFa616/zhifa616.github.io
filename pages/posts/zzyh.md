@@ -3,12 +3,12 @@
 title: 新包出炉！《直至永恒》！
 wordCount: 85
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/20/6aaed5256be6e.webp
+cover: https://cdn.dbimg.app/igO103gT.png
 date: 2026-09-19
 createdAt: "2026-09-19 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-20 013219.png](https://picui.ogmua.cn/s1/2026/09/20/6aaed5256be6e.webp)
+![屏幕截图 2026-10-09 172420.png](https://cdn.dbimg.app/igO103gT.png)
 
 
 主题玩法：  崭新结构冒险
@@ -35,6 +35,6 @@ createdAt: "2026-09-19 14:30:00"
 ![屏幕截图 2026-09-20 013814.png](https://picui.ogmua.cn/s1/2026/09/20/6aaed569d6dd2.webp)
 
 图7
-![屏幕截图 2026-09-20 013219.png](https://picui.ogmua.cn/s1/2026/09/20/6aaed5256be6e.webp)
+![屏幕截图 2026-10-09 172420.png](https://cdn.dbimg.app/igO103gT.png)
 
 [下载](https://yun.139.com/shareweb/#/w/i/2xTrFv0YgXtjg)

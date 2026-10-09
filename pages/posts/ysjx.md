@@ -3,12 +3,12 @@
 title:  元素觉醒  
 wordCount: 64
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa37e55704.webp
+cover: https://cdn.dbimg.app/CX6406v0.png
 date: 2026-09-17
 createdAt: "2026-09-17 00:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-16 221035.png](https://picui.ogmua.cn/s1/2026/09/16/6aaaa37e55704.webp)
+![屏幕截图 2026-10-09 173515.png](https://cdn.dbimg.app/CX6406v0.png)
 主题玩法：  魔法，爽包（未经测试）
 
 此前版本发售日期：2025-07-06

@@ -3,12 +3,12 @@
 title:  方块闲境
 wordCount: 44
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa1efd881f.webp
+cover: https://cdn.dbimg.app/H9Kg39mM.png
 date: 2026-09-17
 createdAt: "2026-09-17 00:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-16 220342.png](https://picui.ogmua.cn/s1/2026/09/16/6aaaa1efd881f.webp)
+![屏幕截图 2026-10-09 181745.png](https://cdn.dbimg.app/H9Kg39mM.png)
 主题玩法：养老
 发售日期：2026-09-10
 

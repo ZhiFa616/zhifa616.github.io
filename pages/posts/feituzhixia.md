@@ -13,14 +13,14 @@ tag_ids:
 categories: []
 published: true
 hideInList: false
-cover: https://picui.ogmua.cn/s1/2026/09/15/6aa832bee193e.webp
+cover: https://cdn.dbimg.app/PqqlLqaX8.png
 isTop: false
 ---
 
 ## 整合包：废土之下-废墟之城。
 
 
-![屏幕截图 2026-09-15 041836.png](https://picui.ogmua.cn/s1/2026/09/15/6aa856c5a02ba.webp)
+![屏幕截图 2026-10-09 172612.png](https://cdn.dbimg.app/PqqlLqaX8.png)
 
 发售日期：2026-8-04  
 当前为1.4.3正式版，后续版本如有更新可至官方Q群联系我们更新。

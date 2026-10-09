@@ -2,13 +2,13 @@
 title: 洪灾启示录
 wordCount: 87
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/17/6aaba21ddd2eb.webp
+cover: https://cdn.dbimg.app/qYnTI212.png
 date: 2026-09-17
 createdAt: "2026-09-17 14:30:00"
 --------------------------------
 
 主题玩法：求生
-![屏幕截图 2026-09-17 161702.png](https://picui.ogmua.cn/s1/2026/09/17/6aaba21ddd2eb.webp)
+![屏幕截图 2026-10-09 181718.png](https://cdn.dbimg.app/qYnTI212.png)
 在突然的一天，你所在的城市被洪水淹没，你是否能在突如其来这样的日子里活下去？
 支持多人，可单人。
 发售日期：2024-08-13

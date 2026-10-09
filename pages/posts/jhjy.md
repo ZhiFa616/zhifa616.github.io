@@ -3,12 +3,12 @@
 title: 剑痕纪元
 wordCount: 48
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa2b9af871.webp
+cover: https://cdn.dbimg.app/Pwpc5H0N.png
 date: 2026-09-17
 createdAt: "2026-09-17 00:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-16 220705.png](https://picui.ogmua.cn/s1/2026/09/16/6aaaa2b9af871.webp)
+![屏幕截图 2026-10-09 181655.png](https://cdn.dbimg.app/Pwpc5H0N.png)
 主题玩法：战斗，冒险，魔法
 发售日期：2026-08-21
 

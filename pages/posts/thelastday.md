@@ -2,12 +2,12 @@
 title: 最终日3.0正式版
 wordCount: 91
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/18/6aacfccb141ba.webp
+cover: https://matuimg.com/m/2026/10/09/sspp3q.png
 date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-18 164829.png](https://picui.ogmua.cn/s1/2026/09/18/6aacfccb141ba.webp)
+![img](https://matuimg.com/m/2026/10/09/sspp3q.png)
 
 内存警告：游玩该整合包需投入大量资金，当前版本如需游玩至少分配40G内存。
 

@@ -3,12 +3,12 @@
 title:  缆车求生100天与无限列车
 wordCount: 120
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/16/6aaaa652d0dc1.webp
+cover: https://cdn.dbimg.app/8ZBeo89u.png
 date: 2026-09-16
 createdAt: "2026-09-16 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-16 222237.png](https://picui.ogmua.cn/s1/2026/09/16/6aaaa652d0dc1.webp)
+![屏幕截图 2026-10-09 172720.png](https://cdn.dbimg.app/8ZBeo89u.png)
 Name：缆车求生
 主题玩法：缆车末日求生  
 发售日期：2026-07-21

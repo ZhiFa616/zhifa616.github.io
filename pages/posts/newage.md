@@ -2,12 +2,12 @@
 title: New Age  新时代
 wordCount: 168
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/18/6aacf8a7d3f34.webp
+cover: https://matuimg.com/m/2026/10/09/sspu3u.png
 date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 
-![674023986eee0da643465fa3d193610da0337c58.jpeg](https://picui.ogmua.cn/s1/2026/09/18/6aacf8a7d3f34.webp)
+![img](https://matuimg.com/m/2026/10/09/sspu3u.png)
 
 New Age 新时代
 直译：新纪元

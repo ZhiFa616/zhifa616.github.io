@@ -2,12 +2,12 @@
 title: 至高RPG
 wordCount: 77
 readingTime: 1
-cover: https://picui.ogmua.cn/s1/2026/09/18/6aad0c0a72b5c.webp
+cover: https://cdn.dbimg.app/L6sdJVjE.png
 date: 2026-09-18
 createdAt: "2026-09-18 14:30:00"
 --------------------------------
 
-![屏幕截图 2026-09-18 180105.png](https://picui.ogmua.cn/s1/2026/09/18/6aad0c0a72b5c.webp)
+![屏幕截图 2026-10-09 182235.png](https://cdn.dbimg.app/L6sdJVjE.png)
 籽岷同款至高RPG整合包
 
 籽岷试玩至高RPG的bili入口：

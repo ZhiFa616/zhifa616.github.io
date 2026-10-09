@@ -1,6 +1,10 @@
 ---
 
 title: 外星仔联机教程  
+wordCount: 300
+readingTime: 1
+cover: https://matuimg.com/m/2026/10/10/495vdc.jpg
+date: 2026-10-10
 createdAt: "2026-10-10 14:30:00"
 --------------------------------
 

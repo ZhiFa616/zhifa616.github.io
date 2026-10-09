@@ -14,7 +14,7 @@ tag_ids:
 categories: []  
 published: true  
 hideInList: false  
-cover: [屏幕截图 2026-10-09 172612.png](https://cdn.dbimg.app/PqqLqaX8.png)
+cover: https://cdn.dbimg.app/PqqLqaX8.png
 isTop: false
 ------------
 

@@ -528,6 +528,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/wxzlj': RouteRecordInfo<
+      '/posts/wxzlj',
+      '/posts/wxzlj',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/wxzz': RouteRecordInfo<
       '/posts/wxzz',
       '/posts/wxzz',
@@ -1237,6 +1244,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/wrrm.md': {
       routes:
         | '/posts/wrrm'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/wxzlj.md': {
+      routes:
+        | '/posts/wxzlj'
       views:
         | never
       pathParamNames:

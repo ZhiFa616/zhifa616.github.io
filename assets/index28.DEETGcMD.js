@@ -1,0 +1,1 @@
+import{U as e}from"./theme.DHNwMy-D.js";var t=e({defaults:{"@type":`PostalAddress`}});export{t as addressResolver};

@@ -101,6 +101,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/maps': RouteRecordInfo<
+      '/maps',
+      '/maps',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/movies': RouteRecordInfo<
       '/movies',
       '/movies',
@@ -139,6 +146,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/akdy': RouteRecordInfo<
       '/posts/akdy',
       '/posts/akdy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/akdytqtxzg': RouteRecordInfo<
+      '/posts/akdytqtxzg',
+      '/posts/akdytqtxzg',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -223,6 +237,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/DHdlyz': RouteRecordInfo<
       '/posts/DHdlyz',
       '/posts/DHdlyz',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dituanzhuang': RouteRecordInfo<
+      '/posts/dituanzhuang',
+      '/posts/dituanzhuang',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -325,6 +346,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/jmqs': RouteRecordInfo<
+      '/posts/jmqs',
+      '/posts/jmqs',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/jsxt': RouteRecordInfo<
       '/posts/jsxt',
       '/posts/jsxt',
@@ -335,6 +363,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/kb': RouteRecordInfo<
       '/posts/kb',
       '/posts/kb',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/kzss': RouteRecordInfo<
+      '/posts/kzss',
+      '/posts/kzss',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -381,6 +416,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/mcqdq': RouteRecordInfo<
+      '/posts/mcqdq',
+      '/posts/mcqdq',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/minecraftji-chu-lian-ji-jiao-chengyi': RouteRecordInfo<
       '/posts/minecraftji-chu-lian-ji-jiao-chengyi',
       '/posts/minecraftji-chu-lian-ji-jiao-chengyi',
@@ -391,6 +433,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/minecraftjin-jie-jiao-cheng': RouteRecordInfo<
       '/posts/minecraftjin-jie-jiao-cheng',
       '/posts/minecraftjin-jie-jiao-cheng',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/mixin': RouteRecordInfo<
+      '/posts/mixin',
+      '/posts/mixin',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -458,6 +507,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/pgcs': RouteRecordInfo<
+      '/posts/pgcs',
+      '/posts/pgcs',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/pxzj2.0': RouteRecordInfo<
       '/posts/pxzj2.0',
       '/posts/pxzj2/0',
@@ -507,6 +563,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/SAO': RouteRecordInfo<
+      '/posts/SAO',
+      '/posts/SAO',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/shdmx': RouteRecordInfo<
       '/posts/shdmx',
       '/posts/shdmx',
@@ -517,6 +580,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/thelastday': RouteRecordInfo<
       '/posts/thelastday',
       '/posts/thelastday',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/tkktz': RouteRecordInfo<
+      '/posts/tkktz',
+      '/posts/tkktz',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -580,6 +650,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/yj': RouteRecordInfo<
       '/posts/yj',
       '/posts/yj',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/yongsheng': RouteRecordInfo<
+      '/posts/yongsheng',
+      '/posts/yongsheng',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -664,6 +741,13 @@ declare module 'vue-router/auto-routes' {
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/textures': RouteRecordInfo<
+      '/textures',
+      '/textures',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -761,6 +845,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/maps.md': {
+      routes:
+        | '/maps'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/movies.md': {
       routes:
         | '/movies'
@@ -804,6 +896,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/akdy.md': {
       routes:
         | '/posts/akdy'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/akdytqtxzg.md': {
+      routes:
+        | '/posts/akdytqtxzg'
       views:
         | never
       pathParamNames:
@@ -900,6 +1000,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/DHdlyz.md': {
       routes:
         | '/posts/DHdlyz'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/dituanzhuang.md': {
+      routes:
+        | '/posts/dituanzhuang'
       views:
         | never
       pathParamNames:
@@ -1017,6 +1125,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/jmqs.md': {
+      routes:
+        | '/posts/jmqs'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/jsxt.md': {
       routes:
         | '/posts/jsxt'
@@ -1028,6 +1144,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/kb.md': {
       routes:
         | '/posts/kb'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/kzss.md': {
+      routes:
+        | '/posts/kzss'
       views:
         | never
       pathParamNames:
@@ -1081,6 +1205,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/mcqdq.md': {
+      routes:
+        | '/posts/mcqdq'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/minecraftji-chu-lian-ji-jiao-chengyi.md': {
       routes:
         | '/posts/minecraftji-chu-lian-ji-jiao-chengyi'
@@ -1092,6 +1224,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/minecraftjin-jie-jiao-cheng.md': {
       routes:
         | '/posts/minecraftjin-jie-jiao-cheng'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/mixin.md': {
+      routes:
+        | '/posts/mixin'
       views:
         | never
       pathParamNames:
@@ -1169,6 +1309,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/pgcs.md': {
+      routes:
+        | '/posts/pgcs'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/pxzj2.0.md': {
       routes:
         | '/posts/pxzj2.0'
@@ -1225,6 +1373,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/SAO.md': {
+      routes:
+        | '/posts/SAO'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/shdmx.md': {
       routes:
         | '/posts/shdmx'
@@ -1236,6 +1392,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/thelastday.md': {
       routes:
         | '/posts/thelastday'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/tkktz.md': {
+      routes:
+        | '/posts/tkktz'
       views:
         | never
       pathParamNames:
@@ -1308,6 +1472,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/yj.md': {
       routes:
         | '/posts/yj'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/yongsheng.md': {
+      routes:
+        | '/posts/yongsheng'
       views:
         | never
       pathParamNames:
@@ -1404,6 +1576,14 @@ declare module 'vue-router/auto-routes' {
     'pages/tags/index.md': {
       routes:
         | '/tags/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/textures.md': {
+      routes:
+        | '/textures'
       views:
         | never
       pathParamNames:

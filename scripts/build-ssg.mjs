@@ -30,10 +30,13 @@ function killChildTree() {
     return
 
   if (process.platform === 'win32') {
-    spawn('taskkill', ['/PID', String(child.pid), '/T', '/F'], {
+    const systemRoot = process.env.SystemRoot || 'C:\\Windows'
+    const killer = spawn(`${systemRoot}\\System32\\taskkill.exe`, ['/PID', String(child.pid), '/T', '/F'], {
       stdio: 'ignore',
       windowsHide: true,
     })
+    // 避免 taskkill 自身启动失败（如 PATH 异常）触发未处理异常导致退出码非 0
+    killer.on('error', () => {})
     return
   }
 

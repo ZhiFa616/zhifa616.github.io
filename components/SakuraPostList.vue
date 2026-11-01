@@ -3,8 +3,11 @@ import type { Post } from 'valaxy'
 import type { CSSProperties } from 'vue'
 import { computed } from 'vue'
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
-import { usePostList, useThemeConfig } from '../node_modules/valaxy-theme-sakura/composables'
+import { usePostList as useValaxyPostList, useSiteConfig } from 'valaxy'
+import { useSakuraAppStore } from '../node_modules/valaxy-theme-sakura/stores/app.ts'
+import { useThemeConfig } from '../node_modules/valaxy-theme-sakura/composables'
 import type { ResponsiveBreakpoints } from '../node_modules/valaxy-theme-sakura/types'
+import { filterMainPosts } from '../utils/postFilter'
 
 const props = defineProps<{
   icon?: string
@@ -14,14 +17,23 @@ const props = defineProps<{
 }>()
 
 const themeConfig = useThemeConfig()
-const postsList = usePostList()
+const siteConfig = useSiteConfig()
+const sakura = useSakuraAppStore()
+// 全量文章（未分页），随后先过滤栏目分类再按当前页切片
+const allPosts = useValaxyPostList()
 const breakpoints = useBreakpoints(breakpointsTailwind)
+
+const pageSize = computed(() => themeConfig.value.pagination?.itemsPerPage || siteConfig.value.pageSize)
+const curPage = computed(() => sakura.curPage || 1)
 
 const isImageReversed = computed(() => themeConfig.value.postList?.isImageReversed)
 
 const icon = computed(() => props.icon ?? themeConfig.value.ui.postList?.icon)
 const text = computed(() => props.text ?? themeConfig.value.postList?.text)
-const posts = computed(() => props.posts || postsList.value)
+
+// 主页文章：排除「恐怖地图 / 材质包」栏目分类后，再按当前页切片
+const mainPosts = computed(() => filterMainPosts(allPosts.value))
+const posts = computed(() => props.posts || mainPosts.value.slice((curPage.value - 1) * pageSize.value, curPage.value * pageSize.value))
 const responsive = computed(() => props.responsive || themeConfig.value.ui.postList?.responsive || {})
 
 const cols = computed(() => {

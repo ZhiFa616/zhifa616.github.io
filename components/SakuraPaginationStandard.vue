@@ -4,6 +4,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useThemeConfig } from '../node_modules/valaxy-theme-sakura/composables'
 import { resolveHomePageIndex } from '../utils/homePagination'
+import { filterMainPosts } from '../utils/postFilter'
 
 const props = defineProps<{
   pageSize?: number
@@ -15,7 +16,8 @@ const siteConfig = useSiteConfig()
 const themeConfig = useThemeConfig()
 const routes = usePostList({ type: '' })
 
-const posts = computed(() => routes.value)
+// 分页总数与主页列表一致：排除「恐怖地图 / 材质包」栏目分类
+const posts = computed(() => filterMainPosts(routes.value))
 const curPage = computed(() => resolveHomePageIndex(route))
 const pageSize = computed(() => props.pageSize || themeConfig.value.pagination?.itemsPerPage || siteConfig.value.pageSize)
 </script>

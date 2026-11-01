@@ -37,6 +37,16 @@ const mainNavItems = [
     ],
   },
   {
+    text: '恐怖地图',
+    icon: 'i-ant-design:environment-filled',
+    link: '/maps',
+  },
+  {
+    text: '材质包',
+    icon: 'i-ant-design:skin-filled',
+    link: '/textures',
+  },
+  {
     text: '番剧',
     icon: 'i-ant-design:play-square-filled',
     link: 'https://www.yhdz.one/',
@@ -118,6 +128,8 @@ const sidebarItems = [
   { text: '📁 归档', link: '/archives' },
   { text: '📁 分类', link: '/categories' },
   { text: '🏷️ 标签', link: '/tags' },
+  { text: '🗺️ 恐怖地图', link: '/maps' },
+  { text: '🎨 材质包', link: '/textures' },
   { text: '🎯 清单', link: '/list' },
   { text: '🎞️ 电影', link: '/movies' },
   { text: '🍿 番剧', link: 'https://www.yhdz.one/', target: '_blank' },

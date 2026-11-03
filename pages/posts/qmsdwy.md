@@ -1,5 +1,9 @@
 ---
 title: 奇妙商店物语  
+wordCount: 42
+readingTime: 1
+cover: https://cdn.dbimg.app/Q5fXUzID.jpg
+date: 2026-11-03
 createdAt: "2026-11-3 14:30:00"
 --------------------------------
 

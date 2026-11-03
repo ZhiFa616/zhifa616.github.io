@@ -1,6 +1,10 @@
 ---
 
 title: 永生  
+wordCount: 56
+readingTime: 1
+cover: https://cdn.dbimg.app/1VDeI6jD.jpg
+date: 2026-10-12
 createdAt: "2026-10-12 14:30:00"
 --------------------------------
 

@@ -1,6 +1,10 @@
 ---
 
 title: MC空战整合包【空中杀手：无瑕王牌】  
+wordCount: 69
+readingTime: 1
+cover: https://cdn.dbimg.app/FqbtV3Dh.jpg
+date: 2026-10-12
 createdAt: "2026-10-12 14:30:00"
 --------------------------------
 

@@ -1,5 +1,9 @@
 ---
 title: 多人恐怖地图《扭曲心灵：疯狂》 
+wordCount: 73
+readingTime: 1
+cover: https://cdn.dbimg.app/wLxTKvNV.jpg
+date: 2026-11-03
 createdAt: "2026-11-3 14:30:00"
 categories: 恐怖地图
 --------------------------------

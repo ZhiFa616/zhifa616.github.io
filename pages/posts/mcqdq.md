@@ -1,5 +1,9 @@
 ---
 title: PCL2关闭下载与新启动器上架通告  
+wordCount: 176
+readingTime: 1
+cover: https://pictureurl.com/api/storage/file?key=u%2Fanon%2F04f92978-9cea-4b6e-a04a-e2384b48b707-_____20261022201747_14_10.jpg
+date: 2026-10-22
 createdAt: "2026-10-22 14:30:00"
 --------------------------------
 

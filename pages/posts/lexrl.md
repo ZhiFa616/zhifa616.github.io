@@ -1,5 +1,9 @@
 ---
 title: 乐享茸旅  
+wordCount: 51
+readingTime: 1
+cover: https://cdn.dbimg.app/X16nRQi9.jpg
+date: 2026-11-03
 createdAt: "2026-11-3 14:30:00"
 --------------------------------
 

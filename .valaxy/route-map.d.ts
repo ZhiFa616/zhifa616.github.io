@@ -311,6 +311,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/hwxx': RouteRecordInfo<
+      '/posts/hwxx',
+      '/posts/hwxx',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/hzqsl': RouteRecordInfo<
       '/posts/hzqsl',
       '/posts/hzqsl',
@@ -367,6 +374,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/KROTHOLE': RouteRecordInfo<
+      '/posts/KROTHOLE',
+      '/posts/KROTHOLE',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/kzss': RouteRecordInfo<
       '/posts/kzss',
       '/posts/kzss',
@@ -377,6 +391,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/lcylc': RouteRecordInfo<
       '/posts/lcylc',
       '/posts/lcylc',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/lexrl': RouteRecordInfo<
+      '/posts/lexrl',
+      '/posts/lexrl',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -493,6 +514,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/niuquxl': RouteRecordInfo<
+      '/posts/niuquxl',
+      '/posts/niuquxl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/OB': RouteRecordInfo<
       '/posts/OB',
       '/posts/OB',
@@ -524,6 +552,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/QA': RouteRecordInfo<
       '/posts/QA',
       '/posts/QA',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/qmsdwy': RouteRecordInfo<
+      '/posts/qmsdwy',
+      '/posts/qmsdwy',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -594,6 +629,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/wrrm': RouteRecordInfo<
       '/posts/wrrm',
       '/posts/wrrm',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/wuyefengk': RouteRecordInfo<
+      '/posts/wuyefengk',
+      '/posts/wuyefengk',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1085,6 +1127,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/hwxx.md': {
+      routes:
+        | '/posts/hwxx'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/hzqsl.md': {
       routes:
         | '/posts/hzqsl'
@@ -1149,6 +1199,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/KROTHOLE.md': {
+      routes:
+        | '/posts/KROTHOLE'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/kzss.md': {
       routes:
         | '/posts/kzss'
@@ -1160,6 +1218,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/lcylc.md': {
       routes:
         | '/posts/lcylc'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/lexrl.md': {
+      routes:
+        | '/posts/lexrl'
       views:
         | never
       pathParamNames:
@@ -1293,6 +1359,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/niuquxl.md': {
+      routes:
+        | '/posts/niuquxl'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/OB.md': {
       routes:
         | '/posts/OB'
@@ -1328,6 +1402,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/QA.md': {
       routes:
         | '/posts/QA'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/qmsdwy.md': {
+      routes:
+        | '/posts/qmsdwy'
       views:
         | never
       pathParamNames:
@@ -1408,6 +1490,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/wrrm.md': {
       routes:
         | '/posts/wrrm'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/wuyefengk.md': {
+      routes:
+        | '/posts/wuyefengk'
       views:
         | never
       pathParamNames:

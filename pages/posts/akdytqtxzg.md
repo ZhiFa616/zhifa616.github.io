@@ -1,6 +1,10 @@
 ---
 
 title:   阿卡迪亚的天启-天选之歌
+wordCount: 50
+readingTime: 1
+cover: https://cdn.dbimg.app/5N8173Ao.jpg
+date: 2026-10-12
 createdAt: "2026-10-12 14:30:00"
 --------------------------------
 

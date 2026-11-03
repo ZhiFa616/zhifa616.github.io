@@ -1,5 +1,9 @@
 ---
 title: 加入官方反馈群组  
+wordCount: 344
+readingTime: 1
+cover: https://pictureurl.com/api/storage/file?key=u%2Fanon%2F932c2cfa-d07f-4d65-8ce7-cff202e6ee3a-_____2026-10-12_191453.png
+date: 2026-10-12
 createdAt: "2026-10-12 14:30:00"
 --------------------------------
 

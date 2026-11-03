@@ -1,6 +1,10 @@
 ---
 
 title:   假面骑士冒险v2.9
+wordCount: 85
+readingTime: 1
+cover: https://cdn.dbimg.app/s6AUxlT1.jpg
+date: 2026-10-12
 createdAt: "2026-10-12 14:30:00"
 --------------------------------
 

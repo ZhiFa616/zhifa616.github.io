@@ -1,5 +1,9 @@
 ---
 title: 荒芜行星  
+wordCount: 152
+readingTime: 1
+cover: https://cdn.dbimg.app/iTZ16mjB.png
+date: 2026-11-03
 createdAt: "2026-11-3 14:30:00"
 --------------------------------
 

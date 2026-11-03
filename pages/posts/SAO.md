@@ -1,6 +1,10 @@
 ---
 
 title: 刀剑神域整合包  
+wordCount: 86
+readingTime: 1
+cover: https://cdn.dbimg.app/SlVRVB82.jpg
+date: 2026-10-12
 createdAt: "2026-10-12 14:30:00"
 --------------------------------
 

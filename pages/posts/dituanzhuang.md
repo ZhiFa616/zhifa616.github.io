@@ -1,6 +1,10 @@
 ---
 
 title: 恐怖地图安装与材质包导入教程  
+wordCount: 905
+readingTime: 3
+cover: https://pictureurl.com/api/storage/file?key=u%2Fanon%2Fd2531836-ca07-4c1b-aa16-07bd1d53afcb-_____2026-10-26_122808.png
+date: 2026-10-26
 createdAt: "2026-10-26 14:30:00"
 --------------------------------
 

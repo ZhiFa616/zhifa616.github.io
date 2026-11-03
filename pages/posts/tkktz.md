@@ -1,6 +1,10 @@
 ---
 
 title: 天空开拓者-耕云纪元  
+wordCount: 51
+readingTime: 1
+cover: https://cdn.dbimg.app/Wmv0z3Rk.jpg
+date: 2026-10-12
 createdAt: "2026-10-12 14:30:00"
 --------------------------------
 

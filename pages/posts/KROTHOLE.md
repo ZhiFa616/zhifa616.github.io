@@ -1,6 +1,10 @@
 ---
 
 title: 多人恐怖地图《KROTHOLE》
+wordCount: 68
+readingTime: 1
+cover: https://cdn.dbimg.app/TtNGh15J.jpg
+date: 2026-11-03
 createdAt: "2026-11-3 14:30:00"
 categories: 恐怖地图
 --------------------------------

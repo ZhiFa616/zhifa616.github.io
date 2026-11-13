@@ -1,5 +1,9 @@
 ---
 title: 宝可梦UI包
+wordCount: 35
+readingTime: 1
+cover: https://cdn.dbimg.app/Z9uucMXu.png
+date: 2026-11-04
 createdAt: "2026-11-4 14:30:00"
 categories: 材质包
 --------------------------------

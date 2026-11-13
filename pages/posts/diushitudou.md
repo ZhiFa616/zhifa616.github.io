@@ -1,6 +1,10 @@
 ---
 
 title: 籽岷同款-丢失的土豆  
+wordCount: 81
+readingTime: 1
+cover: https://cdn.dbimg.app/AG3StTbF.jpg
+date: 2026-11-04
 createdAt: "2026-11-4 14:30:00"  
 categories: 恐怖地图
 ----------------

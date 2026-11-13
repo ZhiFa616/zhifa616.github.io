@@ -1,5 +1,9 @@
 ---
 title: 籽岷同款-凶宅探索
+wordCount: 74
+readingTime: 1
+cover: https://cdn.dbimg.app/OMw4jzSZ.png
+date: 2026-11-04
 createdAt: "2026-11-4 14:30:00"
 categories: 恐怖地图
 --------------------------------

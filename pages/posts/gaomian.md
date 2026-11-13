@@ -1,6 +1,10 @@
 ---
 
 title: 籽岷同款-高棉探险记  
+wordCount: 89
+readingTime: 1
+cover: https://cdn.dbimg.app/rvxHDnpb.png
+date: 2026-11-04
 createdAt: "2026-11-4 14:30:00"  
 categories: 恐怖地图
 ----------------

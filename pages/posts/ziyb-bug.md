@@ -1,6 +1,10 @@
 ---
 
 title: 资源包重载失败问题  
+wordCount: 255
+readingTime: 1
+cover: https://cdn.dbimg.app/JuQbvQwB.png
+date: 2026-11-04
 createdAt: "2026-11-5 14:30:00"  
 categories: 恐怖地图
 ----------------

@@ -3,6 +3,10 @@ import { useSiteConfig } from 'valaxy'
 import { nextTick, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import ImageGalleryViewer from './components/ImageGalleryViewer.vue'
+import SakuraDanglingDoll from './components/SakuraDanglingDoll.vue'
+import SakuraSnowfall from './components/SakuraSnowfall.vue'
+import SakuraClickEffect from './components/SakuraClickEffect.vue'
+import SakuraMusicBall from './components/SakuraMusicBall.vue'
 import { applyCodeBlockFold, initCodeBlockFold } from './utils/collapseCode'
 import { initImageGallery } from './utils/imageGallery'
 import { isHomePaginationPath, scheduleScrollToPostList } from './utils/homePagination'
@@ -65,4 +69,8 @@ watch(() => route.path, () => {
 
 <template>
   <ImageGalleryViewer />
+  <SakuraDanglingDoll />
+  <SakuraMusicBall />
+  <SakuraSnowfall />
+  <SakuraClickEffect />
 </template>

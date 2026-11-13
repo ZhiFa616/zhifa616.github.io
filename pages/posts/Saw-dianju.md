@@ -1,6 +1,10 @@
 ---
 
 title: 籽岷同款-电锯惊魂  
+wordCount: 92
+readingTime: 1
+cover: https://cdn.dbimg.app/q0eCh5IW.png
+date: 2026-11-04
 createdAt: "2026-11-4 14:30:00"  
 categories: 恐怖地图
 ----------------

@@ -26,9 +26,14 @@ export function isColumnPost(post: Post): boolean {
   return cats.some(c => (COLUMN_CATEGORIES as readonly string[]).includes(c))
 }
 
-/** 主页文章：排除独立栏目分类 */
+/** 判断文章是否被标记为不在列表展示（frontmatter: hideInList: true） */
+export function isHiddenFromList(post: Post): boolean {
+  return (post as unknown as { hideInList?: boolean }).hideInList === true
+}
+
+/** 主页文章：排除独立栏目分类，以及 frontmatter 标记 hideInList 的文章 */
 export function filterMainPosts(posts: Post[]): Post[] {
-  return posts.filter(post => !isColumnPost(post))
+  return posts.filter(post => !isColumnPost(post) && !isHiddenFromList(post))
 }
 
 /** 按分类取栏目文章（仅匹配完全相等的分类名） */

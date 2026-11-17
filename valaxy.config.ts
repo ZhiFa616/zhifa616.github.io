@@ -64,14 +64,16 @@ const mainNavItems = [
         link: '/list',
       },
       {
-        text: '电影',
+        text: '美剧',
         icon: 'i-ant-design:video-camera-filled',
-        link: '/movies',
+        link: 'https://www.mjttj.cc/',
+        target: '_blank',
       },
       {
         text: '游戏',
         icon: 'i-ant-design:gamepad-filled',
-        link: '/games',
+        link: 'https://www.youxione.com/',
+        target: '_blank',
       },
       {
         text: '歌单',
@@ -92,9 +94,10 @@ const mainNavItems = [
         link: '/comments',
       },
       {
-        text: '朋友圈',
-        icon: 'i-ant-design:smile-filled',
-        link: '/friends',
+        text: '官方bilibili',
+        icon: 'i-ri-bilibili-line',
+        link: 'https://space.bilibili.com/3706959050050392',
+        target: '_blank',
       },
       {
         text: '加入官方 Q 群',
@@ -111,15 +114,9 @@ const mainNavItems = [
     ],
   },
   {
-    text: '打赏',
-    icon: 'i-ant-design:heart-filled',
-    link: 'https://picui.ogmua.cn/s1/2026/09/13/6aa5ad8e71063.webp',
-    target: '_blank',
-  },
-  {
     text: '关于',
     icon: 'i-ant-design:idcard-filled',
-    link: '/about',
+    link: '/posts/about',
   },
 ]
 
@@ -131,14 +128,13 @@ const sidebarItems = [
   { text: '🗺️ 恐怖地图', link: '/maps' },
   { text: '🎨 材质包', link: '/textures' },
   { text: '🎯 清单', link: '/list' },
-  { text: '🎞️ 电影', link: '/movies' },
+  { text: '📺 美剧', link: 'https://www.mjttj.cc/', target: '_blank' },
   { text: '🍿 番剧', link: 'https://www.yhdz.one/', target: '_blank' },
-  { text: '🎮 游戏', link: '/games' },
+  { text: '🎮 游戏', link: 'https://www.youxione.com/', target: '_blank' },
   { text: '🎵 歌单', link: '/playlists' },
   { text: '📝 留言板', link: '/comments' },
-  { text: '🍻 朋友圈', link: '/friends' },
-  { text: '❤️ 打赏', link: 'https://picui.ogmua.cn/s1/2026/09/13/6aa5ad8e71063.webp', target: '_blank' },
-  { text: '📌 关于', link: '/about' },
+  { text: '📺 官方bilibili', link: 'https://space.bilibili.com/3706959050050392', target: '_blank' },
+  { text: '📌 关于', link: '/posts/about' },
 ]
 
 /**

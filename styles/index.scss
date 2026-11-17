@@ -1,7 +1,9 @@
 @use "./twikoo-comment";
 
-/* 1️⃣ 霞鹜文楷（本地 npm 包，构建时打包字体文件） */
-@import "lxgw-wenkai-screen-webfont/style.css";
+/* 1️⃣ 霞鹜文楷（本地 npm 包，构建时打包字体文件）
+   只引入全字符集单变体：原 style.css 会同时导入 gb/gbr/screen/screenr 四套（共 388 个分片、18.4MB），
+   其中两套 R 变体站点并未使用，gb 与 screen 又同为 "LXGW WenKai Screen" 造成重复命中。 */
+@import "lxgw-wenkai-screen-webfont/lxgwwenkaiscreen.css";
 
 /* 2️⃣ 全局字体变量 */
 :root {

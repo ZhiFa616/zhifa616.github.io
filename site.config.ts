@@ -54,13 +54,21 @@ export default defineSiteConfig({
      */
     // pattern: 'pages/**/*.md',
     options: {
-      keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
+      /**
+       * 只匹配标题、标签、分类，不再匹配正文与摘要：
+       * 避免正文里出现关键词中的字就被搜出来，导致结果与搜索词无关。
+       */
+      keys: ['title', 'tags', 'categories'],
       /**
        * @default 0.6
        * @see https://www.fusejs.io/api/options.html#threshold
-       * 设置匹配阈值，越低越精确
+       * 设置匹配阈值，越低越精确：0.2 只容忍极小的拼写差异
        */
-      // threshold: 0.6,
+      threshold: 0.2,
+      /**
+       * 至少连续匹配 2 个字符，避免单字（如“的”“一”）把所有文章都命中
+       */
+      minMatchCharLength: 2,
       /**
        * @default false
        * @see https://www.fusejs.io/api/options.html#ignoreLocation
@@ -72,7 +80,7 @@ export default defineSiteConfig({
   },
 
   sponsor: {
-    enable: true,
+    enable: false,
     title: '喜欢我的整合包？欢迎打赏支持！',
     methods: [
       {

@@ -143,6 +143,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/ads': RouteRecordInfo<
+      '/posts/ads',
+      '/posts/ads',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/akdy': RouteRecordInfo<
       '/posts/akdy',
       '/posts/akdy',
@@ -160,6 +167,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/Alexcraft-mc': RouteRecordInfo<
       '/posts/Alexcraft-mc',
       '/posts/Alexcraft-mc',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/AOF5': RouteRecordInfo<
+      '/posts/AOF5',
+      '/posts/AOF5',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -237,6 +251,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/cjzd': RouteRecordInfo<
       '/posts/cjzd',
       '/posts/cjzd',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/CK2': RouteRecordInfo<
+      '/posts/CK2',
+      '/posts/CK2',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -535,6 +556,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/mfmj': RouteRecordInfo<
+      '/posts/mfmj',
+      '/posts/mfmj',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/minecraftji-chu-lian-ji-jiao-chengyi': RouteRecordInfo<
       '/posts/minecraftji-chu-lian-ji-jiao-chengyi',
       '/posts/minecraftji-chu-lian-ji-jiao-chengyi',
@@ -640,6 +668,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Planetary': RouteRecordInfo<
+      '/posts/Planetary',
+      '/posts/Planetary',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/pxzj2.0': RouteRecordInfo<
       '/posts/pxzj2.0',
       '/posts/pxzj2/0',
@@ -678,6 +713,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/quweibao': RouteRecordInfo<
       '/posts/quweibao',
       '/posts/quweibao',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/RAD2': RouteRecordInfo<
+      '/posts/RAD2',
+      '/posts/RAD2',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -839,6 +881,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/yuanli': RouteRecordInfo<
       '/posts/yuanli',
       '/posts/yuanli',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/zaiewz': RouteRecordInfo<
+      '/posts/zaiewz',
+      '/posts/zaiewz',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1061,6 +1110,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/ads.md': {
+      routes:
+        | '/posts/ads'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/akdy.md': {
       routes:
         | '/posts/akdy'
@@ -1080,6 +1137,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/Alexcraft-mc.md': {
       routes:
         | '/posts/Alexcraft-mc'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/AOF5.md': {
+      routes:
+        | '/posts/AOF5'
       views:
         | never
       pathParamNames:
@@ -1168,6 +1233,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/cjzd.md': {
       routes:
         | '/posts/cjzd'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/CK2.md': {
+      routes:
+        | '/posts/CK2'
       views:
         | never
       pathParamNames:
@@ -1509,6 +1582,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/mfmj.md': {
+      routes:
+        | '/posts/mfmj'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/minecraftji-chu-lian-ji-jiao-chengyi.md': {
       routes:
         | '/posts/minecraftji-chu-lian-ji-jiao-chengyi'
@@ -1629,6 +1710,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/Planetary.md': {
+      routes:
+        | '/posts/Planetary'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/pxzj2.0.md': {
       routes:
         | '/posts/pxzj2.0'
@@ -1672,6 +1761,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/quweibao.md': {
       routes:
         | '/posts/quweibao'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/RAD2.md': {
+      routes:
+        | '/posts/RAD2'
       views:
         | never
       pathParamNames:
@@ -1856,6 +1953,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/yuanli.md': {
       routes:
         | '/posts/yuanli'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/zaiewz.md': {
+      routes:
+        | '/posts/zaiewz'
       views:
         | never
       pathParamNames:

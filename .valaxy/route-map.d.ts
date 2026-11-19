@@ -150,6 +150,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Airisight': RouteRecordInfo<
+      '/posts/Airisight',
+      '/posts/Airisight',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/akdy': RouteRecordInfo<
       '/posts/akdy',
       '/posts/akdy',
@@ -353,6 +360,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/fsmnx': RouteRecordInfo<
+      '/posts/fsmnx',
+      '/posts/fsmnx',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/FZZL2.0': RouteRecordInfo<
       '/posts/FZZL2.0',
       '/posts/FZZL2/0',
@@ -384,6 +398,20 @@ declare module 'vue-router/auto-routes' {
     '/posts/heiangu': RouteRecordInfo<
       '/posts/heiangu',
       '/posts/heiangu',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/htjyczb': RouteRecordInfo<
+      '/posts/htjyczb',
+      '/posts/htjyczb',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/huiyeji': RouteRecordInfo<
+      '/posts/huiyeji',
+      '/posts/huiyeji',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -493,6 +521,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/L2M': RouteRecordInfo<
+      '/posts/L2M',
+      '/posts/L2M',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/lcylc': RouteRecordInfo<
       '/posts/lcylc',
       '/posts/lcylc',
@@ -503,6 +538,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/lexrl': RouteRecordInfo<
       '/posts/lexrl',
       '/posts/lexrl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/lianrenbuxing': RouteRecordInfo<
+      '/posts/lianrenbuxing',
+      '/posts/lianrenbuxing',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -552,6 +594,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/mcqdq': RouteRecordInfo<
       '/posts/mcqdq',
       '/posts/mcqdq',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/MeGUI': RouteRecordInfo<
+      '/posts/MeGUI',
+      '/posts/MeGUI',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -703,6 +752,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Quadral': RouteRecordInfo<
+      '/posts/Quadral',
+      '/posts/Quadral',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/qunluanjy': RouteRecordInfo<
       '/posts/qunluanjy',
       '/posts/qunluanjy',
@@ -818,6 +874,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/xiongzhaits': RouteRecordInfo<
       '/posts/xiongzhaits',
       '/posts/xiongzhaits',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/xqgd': RouteRecordInfo<
+      '/posts/xqgd',
+      '/posts/xqgd',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1118,6 +1181,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/Airisight.md': {
+      routes:
+        | '/posts/Airisight'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/akdy.md': {
       routes:
         | '/posts/akdy'
@@ -1350,6 +1421,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/fsmnx.md': {
+      routes:
+        | '/posts/fsmnx'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/FZZL2.0.md': {
       routes:
         | '/posts/FZZL2.0'
@@ -1385,6 +1464,22 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/heiangu.md': {
       routes:
         | '/posts/heiangu'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/htjyczb.md': {
+      routes:
+        | '/posts/htjyczb'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/huiyeji.md': {
+      routes:
+        | '/posts/huiyeji'
       views:
         | never
       pathParamNames:
@@ -1510,6 +1605,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/L2M.md': {
+      routes:
+        | '/posts/L2M'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/lcylc.md': {
       routes:
         | '/posts/lcylc'
@@ -1521,6 +1624,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/lexrl.md': {
       routes:
         | '/posts/lexrl'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/lianrenbuxing.md': {
+      routes:
+        | '/posts/lianrenbuxing'
       views:
         | never
       pathParamNames:
@@ -1577,6 +1688,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/mcqdq.md': {
       routes:
         | '/posts/mcqdq'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/MeGUI.md': {
+      routes:
+        | '/posts/MeGUI'
       views:
         | never
       pathParamNames:
@@ -1750,6 +1869,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/Quadral.md': {
+      routes:
+        | '/posts/Quadral'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/qunluanjy.md': {
       routes:
         | '/posts/qunluanjy'
@@ -1881,6 +2008,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/xiongzhaits.md': {
       routes:
         | '/posts/xiongzhaits'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/xqgd.md': {
+      routes:
+        | '/posts/xqgd'
       views:
         | never
       pathParamNames:

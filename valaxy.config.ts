@@ -76,6 +76,12 @@ const mainNavItems = [
         target: '_blank',
       },
       {
+        text: 'GitHub加速',
+        icon: 'i-ant-design:github-filled',
+        link: 'https://gh-proxy.com/',
+        target: '_blank',
+      },
+      {
         text: '歌单',
         icon: 'i-ant-design:audio-filled',
         link: '/playlists',
@@ -131,6 +137,7 @@ const sidebarItems = [
   { text: '📺 美剧', link: 'https://www.mjttj.cc/', target: '_blank' },
   { text: '🍿 番剧', link: 'https://www.yhdz.one/', target: '_blank' },
   { text: '🎮 游戏', link: 'https://www.youxione.com/', target: '_blank' },
+  { text: '🚀 GitHub加速', link: 'https://gh-proxy.com/', target: '_blank' },
   { text: '🎵 歌单', link: '/playlists' },
   { text: '📝 留言板', link: '/comments' },
   { text: '📺 官方bilibili', link: 'https://space.bilibili.com/3706959050050392', target: '_blank' },

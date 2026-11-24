@@ -94,6 +94,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/launchers': RouteRecordInfo<
+      '/launchers',
+      '/launchers',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/list': RouteRecordInfo<
       '/list',
       '/list',
@@ -241,6 +248,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/CDCCL': RouteRecordInfo<
+      '/posts/CDCCL',
+      '/posts/CDCCL',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/CEX': RouteRecordInfo<
+      '/posts/CEX',
+      '/posts/CEX',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/chuangzaoUI': RouteRecordInfo<
       '/posts/chuangzaoUI',
       '/posts/chuangzaoUI',
@@ -314,6 +335,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/dxjb': RouteRecordInfo<
       '/posts/dxjb',
       '/posts/dxjb',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/EririLily': RouteRecordInfo<
+      '/posts/EririLily',
+      '/posts/EririLily',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -398,6 +426,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/heiangu': RouteRecordInfo<
       '/posts/heiangu',
       '/posts/heiangu',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HMCL-CE': RouteRecordInfo<
+      '/posts/HMCL-CE',
+      '/posts/HMCL-CE',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -675,6 +710,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Nex': RouteRecordInfo<
+      '/posts/Nex',
+      '/posts/Nex',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/niepan': RouteRecordInfo<
       '/posts/niepan',
       '/posts/niepan',
@@ -710,6 +752,69 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/PCL-CM': RouteRecordInfo<
+      '/posts/PCL-CM',
+      '/posts/PCL-CM',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCL-FE': RouteRecordInfo<
+      '/posts/PCL-FE',
+      '/posts/PCL-FE',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCL-LF': RouteRecordInfo<
+      '/posts/PCL-LF',
+      '/posts/PCL-LF',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCL-Moon': RouteRecordInfo<
+      '/posts/PCL-Moon',
+      '/posts/PCL-Moon',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCL-NE': RouteRecordInfo<
+      '/posts/PCL-NE',
+      '/posts/PCL-NE',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCL-SE': RouteRecordInfo<
+      '/posts/PCL-SE',
+      '/posts/PCL-SE',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCL-TM': RouteRecordInfo<
+      '/posts/PCL-TM',
+      '/posts/PCL-TM',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCL-Y': RouteRecordInfo<
+      '/posts/PCL-Y',
+      '/posts/PCL-Y',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PCLtbb': RouteRecordInfo<
+      '/posts/PCLtbb',
+      '/posts/PCLtbb',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/pgcs': RouteRecordInfo<
       '/posts/pgcs',
       '/posts/pgcs',
@@ -720,6 +825,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/Planetary': RouteRecordInfo<
       '/posts/Planetary',
       '/posts/Planetary',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Proto': RouteRecordInfo<
+      '/posts/Proto',
+      '/posts/Proto',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -832,6 +944,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/tkktz': RouteRecordInfo<
       '/posts/tkktz',
       '/posts/tkktz',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/unlimited': RouteRecordInfo<
+      '/posts/unlimited',
+      '/posts/unlimited',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -1117,6 +1236,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/launchers.md': {
+      routes:
+        | '/launchers'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/list.md': {
       routes:
         | '/list'
@@ -1285,6 +1412,22 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/CDCCL.md': {
+      routes:
+        | '/posts/CDCCL'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/CEX.md': {
+      routes:
+        | '/posts/CEX'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/chuangzaoUI.md': {
       routes:
         | '/posts/chuangzaoUI'
@@ -1368,6 +1511,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/dxjb.md': {
       routes:
         | '/posts/dxjb'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/EririLily.md': {
+      routes:
+        | '/posts/EririLily'
       views:
         | never
       pathParamNames:
@@ -1464,6 +1615,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/heiangu.md': {
       routes:
         | '/posts/heiangu'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HMCL-CE.md': {
+      routes:
+        | '/posts/HMCL-CE'
       views:
         | never
       pathParamNames:
@@ -1781,6 +1940,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/Nex.md': {
+      routes:
+        | '/posts/Nex'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/niepan.md': {
       routes:
         | '/posts/niepan'
@@ -1821,6 +1988,78 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/PCL-CM.md': {
+      routes:
+        | '/posts/PCL-CM'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCL-FE.md': {
+      routes:
+        | '/posts/PCL-FE'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCL-LF.md': {
+      routes:
+        | '/posts/PCL-LF'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCL-Moon.md': {
+      routes:
+        | '/posts/PCL-Moon'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCL-NE.md': {
+      routes:
+        | '/posts/PCL-NE'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCL-SE.md': {
+      routes:
+        | '/posts/PCL-SE'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCL-TM.md': {
+      routes:
+        | '/posts/PCL-TM'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCL-Y.md': {
+      routes:
+        | '/posts/PCL-Y'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/PCLtbb.md': {
+      routes:
+        | '/posts/PCLtbb'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/pgcs.md': {
       routes:
         | '/posts/pgcs'
@@ -1832,6 +2071,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/Planetary.md': {
       routes:
         | '/posts/Planetary'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/Proto.md': {
+      routes:
+        | '/posts/Proto'
       views:
         | never
       pathParamNames:
@@ -1960,6 +2207,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/tkktz.md': {
       routes:
         | '/posts/tkktz'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/unlimited.md': {
+      routes:
+        | '/posts/unlimited'
       views:
         | never
       pathParamNames:

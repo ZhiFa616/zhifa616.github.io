@@ -47,6 +47,11 @@ const mainNavItems = [
     link: '/textures',
   },
   {
+    text: '启动器',
+    icon: 'i-ant-design:rocket-filled',
+    link: '/launchers',
+  },
+  {
     text: '番剧',
     icon: 'i-ant-design:play-square-filled',
     link: 'https://www.yhdz.one/',
@@ -133,6 +138,7 @@ const sidebarItems = [
   { text: '🏷️ 标签', link: '/tags' },
   { text: '🗺️ 恐怖地图', link: '/maps' },
   { text: '🎨 材质包', link: '/textures' },
+  { text: '🖥️ 启动器', link: '/launchers' },
   { text: '🎯 清单', link: '/list' },
   { text: '📺 美剧', link: 'https://www.mjttj.cc/', target: '_blank' },
   { text: '🍿 番剧', link: 'https://www.yhdz.one/', target: '_blank' },

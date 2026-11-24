@@ -29,13 +29,16 @@ export function getPostListScrollTop() {
   return Math.max(0, window.scrollY + target.getBoundingClientRect().top - getNavbarOffset() - 8)
 }
 
-export async function scrollToPostList() {
+export async function scrollToPostList(options: { immediate?: boolean } = {}) {
   const top = getPostListScrollTop()
+  const immediate = options.immediate ?? false
 
   try {
     const { lenisRef } = await import('../node_modules/valaxy-theme-sakura/plugins/lenis.ts')
     if (lenisRef.value) {
-      lenisRef.value.scrollTo(top, { immediate: true })
+      lenisRef.value.scrollTo(top, immediate
+        ? { immediate: true }
+        : { duration: 0.6, easing: (t: number) => 1 - (1 - t) ** 3 })
       return top
     }
   }
@@ -43,14 +46,14 @@ export async function scrollToPostList() {
     // Lenis 未启用时回退到原生滚动
   }
 
-  window.scrollTo({ top, left: 0, behavior: 'auto' })
+  window.scrollTo({ top, left: 0, behavior: immediate ? 'auto' : 'smooth' })
   return top
 }
 
-export function scheduleScrollToPostList(onDone?: (top: number) => void) {
+export function scheduleScrollToPostList(onDone?: (top: number) => void, options: { immediate?: boolean } = {}) {
   requestAnimationFrame(() => {
     requestAnimationFrame(async () => {
-      const top = await scrollToPostList()
+      const top = await scrollToPostList(options)
       onDone?.(top)
     })
   })

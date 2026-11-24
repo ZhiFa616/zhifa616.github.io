@@ -9,7 +9,7 @@ createdAt: "2026-07-04 04:37:52"
 updated: "2026-07-04 04:37:52"
 tags: []
 tag_ids: []
-categories: []
+categories: 启动器
 published: true
 hideInList: false
 

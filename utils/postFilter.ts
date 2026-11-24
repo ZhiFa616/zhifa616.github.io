@@ -5,11 +5,11 @@ import type { Post } from 'valaxy'
  * 仅在对应的栏目页（/maps 恐怖地图、/textures 材质包）展示。
  *
  * 写文章时在 frontmatter 中加一行即可归入对应栏目：
- *   categories: 恐怖地图   或   categories: 材质包
+ *   categories: 恐怖地图  /  材质包  /  启动器
  * （Valaxy 前端 usePageList 会原样保留 frontmatter 中的 categories，
  *  写字符串时这里统一规范为数组，避免 .some/.includes 崩溃）
  */
-export const COLUMN_CATEGORIES = ['恐怖地图', '材质包'] as const
+export const COLUMN_CATEGORIES = ['恐怖地图', '材质包', '启动器'] as const
 
 /** 将 categories 统一规范为字符串数组（兼容 字符串 / 数组 / 缺失 三种写法） */
 export function toCategoryArray(categories: unknown): string[] {

@@ -16,26 +16,76 @@ export interface TwikooOptions {
   placeholder?: string
 }
 
-const COMMENT_PLACEHOLDER = '分享你的想法...'
+const COMMENT_PLACEHOLDER = '写下你的想法…'
 const META_PLACEHOLDERS: Record<string, string> = {
-  nick: '昵称',
-  mail: '邮箱',
-  link: '网址 (选填)',
+  nick: '填写你的昵称',
+  mail: '填写你的邮箱',
+  link: '填写你的网址（选填）',
 }
 
+/** Twikoo 自身用于记住访客身份的 localStorage 键 */
+const VISITOR_KEY = 'twikoo'
+
 let formCustomizeObserver: MutationObserver | null = null
+
+function randomToken(length = 6) {
+  const chars = 'abcdefghijklmnopqrstuvwxyz0123456789'
+  let out = ''
+  for (let i = 0; i < length; i++)
+    out += chars[Math.floor(Math.random() * chars.length)]
+  return out
+}
+
+/**
+ * 首次访问时写入一份固定的访客身份，之后一直沿用，
+ * 避免访客刷新页面后被当成新用户。
+ */
+function ensureVisitorIdentity() {
+  if (!isClient)
+    return
+
+  try {
+    const raw = localStorage.getItem(VISITOR_KEY)
+    let data: Record<string, string> = {}
+    if (raw) {
+      const parsed = JSON.parse(raw)
+      if (parsed && typeof parsed === 'object')
+        data = parsed as Record<string, string>
+    }
+
+    const mail = typeof data.mail === 'string' ? data.mail.trim() : ''
+    const nick = typeof data.nick === 'string' ? data.nick.trim() : ''
+
+    if (!mail)
+      data.mail = `visitor-${randomToken()}@visitor.mcntsb.club`
+    if (!nick)
+      data.nick = `访客${randomToken(4)}`
+    if (typeof data.link !== 'string')
+      data.link = ''
+
+    localStorage.setItem(VISITOR_KEY, JSON.stringify({ nick: data.nick, mail: data.mail, link: data.link }))
+  }
+  catch {
+    // 隐私模式下 localStorage 可能不可用，忽略即可
+  }
+}
 
 function customizeTwikooCommentForm() {
   if (!isClient)
     return
 
-  document.querySelectorAll('.sakura-comment .twikoo, #tcomment').forEach((root) => {
-    root.querySelectorAll('.tk-submit .tk-meta-input .el-input__inner').forEach((input) => {
+  document.querySelectorAll('.twikoo').forEach((root) => {
+    root.querySelectorAll('.tk-meta-input input').forEach((input) => {
       const el = input as HTMLInputElement
       el.placeholder = META_PLACEHOLDERS[el.name] ?? ''
+      // 邮箱决定访客身份，锁住它才不会因改成新邮箱而变成另一个用户
+      if (el.name === 'mail') {
+        el.readOnly = true
+        el.title = '已为你记住访客身份，刷新后仍是同一个用户'
+      }
     })
 
-    root.querySelectorAll('.tk-submit .tk-input .el-textarea__inner').forEach((textarea) => {
+    root.querySelectorAll('.tk-input textarea').forEach((textarea) => {
       (textarea as HTMLTextAreaElement).placeholder = COMMENT_PLACEHOLDER
     })
   })
@@ -101,6 +151,9 @@ export function useTwikoo(options: ComputedRef<TwikooOptions | undefined>, _vers
   function initTwikoo(twikooOptions: TwikooOptions) {
     if (!isClient)
       return
+
+    // 必须在 Twikoo 读取 localStorage 之前写好访客身份
+    ensureVisitorIdentity()
 
     const defaultOptions = {
       el: '.comment #tcomment',

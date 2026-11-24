@@ -11,6 +11,7 @@ const frontmatter = useFrontmatter()
 const CATEGORY_MAP: Record<string, string> = {
   '/maps': '恐怖地图',
   '/textures': '材质包',
+  '/launchers': '启动器',
 }
 
 const category = computed(() => CATEGORY_MAP[route.path] || '')

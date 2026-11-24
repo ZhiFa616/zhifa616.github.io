@@ -438,4 +438,307 @@ html.image-gallery-open {
   }
 }
 
+/* ===== 亚克力（磨砂玻璃）导航 / 侧边栏 ===== */
+:root {
+  --acrylic-bg: rgb(255 253 253 / 62%);
+  --acrylic-bg-strong: rgb(255 253 253 / 62%);
+  --acrylic-overlay: rgb(48 26 30 / 24%);
+  --acrylic-border: rgb(255 255 255 / 55%);
+  --acrylic-shadow: 0 8px 30px -12px rgb(120 70 78 / 35%);
+  --acrylic-shadow-left: 10px 0 36px -16px rgb(90 40 45 / 38%);
+}
 
+html.dark {
+  --acrylic-bg: rgb(26 21 24 / 58%);
+  --acrylic-bg-strong: rgb(26 21 24 / 55%);
+  --acrylic-overlay: rgb(0 0 0 / 30%);
+  --acrylic-border: rgb(255 255 255 / 10%);
+  --acrylic-shadow: 0 8px 30px -12px rgb(0 0 0 / 60%);
+  --acrylic-shadow-left: 10px 0 36px -16px rgb(0 0 0 / 65%);
+}
+
+/* 顶部导航：滚动后（PC 与手机共用）启用磨砂玻璃背景 */
+.sakura-navbar .navbar-content.has-scrolled {
+  background: var(--acrylic-bg) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.7);
+  backdrop-filter: blur(18px) saturate(1.7);
+  border-bottom: 1px solid var(--acrylic-border);
+  box-shadow: var(--acrylic-shadow);
+}
+
+/* 手机端侧边栏抽屉：整体磨砂玻璃 */
+.sakura-sidebar {
+  background-color: var(--acrylic-bg-strong) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(1.8);
+  backdrop-filter: blur(24px) saturate(1.8);
+  border-right: 1px solid var(--acrylic-border);
+  border-radius: 0 18px 18px 0;
+  box-shadow: var(--acrylic-shadow-left);
+}
+
+/* 覆盖式抽屉：主题默认在打开侧边栏时把 navbar/main/footer 整体 translateX(侧边栏宽度)，
+   导致内容被推右、并撑出底部横向滚动条。这里把偏移量归零，改为抽屉直接覆盖页面。 */
+html:root {
+  --sakura-sidebar-offset: 0px;
+}
+
+/* 打开侧边栏时的遮罩：默认 75% 深色会把下层内容压死，调轻后主内容可见、抽屉的磨砂感才出得来 */
+.va-overlay {
+  background: var(--acrylic-overlay) !important;
+}
+
+/* 装饰波浪等绝对定位元素会超出视口宽度，clip 可裁剪且不影响 sticky 定位 */
+html {
+  overflow-x: clip;
+}
+
+/* 不支持 backdrop-filter 的浏览器退化为稍高不透明背景，保证文字可读 */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root {
+    --acrylic-bg: rgb(255 253 253 / 92%);
+    --acrylic-bg-strong: rgb(255 253 253 / 96%);
+  }
+
+  html.dark {
+    --acrylic-bg: rgb(26 21 24 / 92%);
+    --acrylic-bg-strong: rgb(26 21 24 / 96%);
+  }
+}
+
+/* ===== 粉色模式（html.pink） ===== */
+html.pink,
+html.pink.dark {
+  --va-c-bg: #fff4f7;
+  --va-c-bg-alt: #ffeff4;
+  --va-c-bg-soft: #fffafc;
+  --va-c-bg-mute: #ffe8ef;
+  --va-c-bg-light: #fffdfe;
+  --va-c-bg-elevated: #fffafc;
+  --va-c-bg-dark: #f9dfe7;
+  --va-c-bg-opacity: 255, 250, 252;
+  --va-c-text: #5b3742;
+  --va-c-text-1: #5b3742;
+  --va-c-text-2: #8b6772;
+  --va-c-text-3: #ab8a95;
+  --va-c-primary: #ec7ba1;
+  --va-c-primary-dark: #d75f8b;
+  --va-c-primary-light: #f4a3bd;
+  --va-c-primary-lighter: #fad2e0;
+  --va-c-primary-rgb: 236, 123, 161;
+  --va-c-border: #f7dfe7;
+  --va-c-divider: #f2d3de;
+
+  --sakura-color-background: #fff4f7;
+  --sakura-color-main-background: #fff4f7;
+  --sakura-color-primary: #ec7ba1;
+  --sakura-color-action: #d75f8b;
+  --sakura-color-text: #7d5b66;
+  --sakura-color-text-deep: #4b2e37;
+  --sakura-color-text-muted: #a88690;
+  --sakura-color-border: #f7dfe7;
+  --sakura-color-divider: #f2d3de;
+  --sakura-color-muted-background: #ffe9f1;
+  --sakura-color-overlay-background: rgb(120 60 85 / 45%);
+  --sakura-card-bg: rgb(255 251 253 / 97%);
+  --sakura-post-card-bg: rgb(255 251 253 / 97%);
+  --sakura-navbar-bg: rgb(255 251 253 / 95%);
+  --sakura-navbar-title-color: #4b2e37;
+  --sakura-navbar-item-color: #7d5b66;
+  --sakura-navbar-marker-color: #ec7ba1;
+  --sakura-navbar-shadow: 0 10px 20px -8px rgb(190 120 145 / 35%);
+  --sakura-sidebar-bg: #fff4f7;
+  --sakura-scrollbar-bg: #fff4f7;
+  --sakura-scrollbar-thumb: #ec7ba1;
+  --sakura-scrollbar-thumb-hover: #d75f8b;
+  --sakura-card-shadow: 0 20px 26px rgb(200 130 155 / 18%);
+  --sakura-timeline-color: #ec7ba1;
+  --sakura-timeline-text-color: #d75f8b;
+
+  /* 粉色模式下亚克力同步粉化 */
+  --acrylic-bg: rgb(255 246 249 / 72%);
+  --acrylic-bg-strong: rgb(255 244 248 / 64%);
+  --acrylic-overlay: rgb(120 60 85 / 26%);
+  --acrylic-border: rgb(255 255 255 / 65%);
+  --acrylic-shadow: 0 8px 30px -12px rgb(200 120 150 / 40%);
+  --acrylic-shadow-left: 10px 0 36px -16px rgb(200 120 150 / 42%);
+}
+
+html.pink {
+  background-color: #fff4f7;
+}
+
+html.pink body {
+  background-color: #fff4f7;
+  background-image:
+    radial-gradient(110% 70% at 8% 0%, rgb(255 214 228 / 55%) 0%, transparent 58%),
+    radial-gradient(110% 70% at 92% 6%, rgb(255 224 235 / 50%) 0%, transparent 52%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+html.pink.dark body {
+  background-image:
+    radial-gradient(110% 70% at 8% 0%, rgb(255 214 228 / 22%) 0%, transparent 58%),
+    radial-gradient(110% 70% at 92% 6%, rgb(255 224 235 / 18%) 0%, transparent 52%);
+}
+
+/* 粉色模式下评论区与统计图改用粉色描边 */
+html.pink .sakura-comment,
+html.pink .sakura-stat-chart {
+  border-color: #f2c7d6;
+}
+
+/* 按钮槽位 */
+.pink-slot--side {
+  padding: 0 16px;
+  margin-bottom: 10px;
+}
+
+.pink-slot--aside {
+  margin-top: 14px;
+}
+
+/* 手机/平板（三栏堆成单列）时右栏按钮会掉到页面底部，与侧边栏那颗重复，这里只保留侧边栏入口 */
+@media (max-width: 1023px) {
+  .pink-slot--aside {
+    display: none !important;
+  }
+}
+
+
+
+/* 评论系统：隐藏标题行右侧的「设置」齿轮按钮，仅保留排序入口 */
+.tk-comments-title > span > .tk-icon:nth-of-type(2) {
+  display: none !important;
+}
+
+/* 翻页页没有首屏大图，用导航栏高度的占位把列表顶下去，避免和固定导航栏叠在一起 */
+.sakura-page-top-spacer {
+  display: block;
+  height: calc(var(--sakura-navbar-height, 64px) + 16px);
+}
+
+/* 翻页过渡：旧页轻轻后退淡出，新页由外向内浮现（View Transitions） */
+html.is-page-vt .sakura-home-layout {
+  view-transition-name: page-content;
+}
+
+html.is-page-vt::view-transition-old(root),
+html.is-page-vt::view-transition-new(root),
+html.is-page-vt::view-transition-group(page-content) {
+  /* 导航栏与页面背景保持静止，只让正文自己动 */
+  animation: none;
+}
+
+html.is-page-vt::view-transition-old(page-content) {
+  animation: page-vt-leave 0.24s ease-out both;
+}
+
+html.is-page-vt::view-transition-new(page-content) {
+  animation: page-vt-enter 0.42s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+html.is-page-vt.pt-backward::view-transition-old(page-content) {
+  animation-name: page-vt-leave-back;
+}
+
+html.is-page-vt.pt-backward::view-transition-new(page-content) {
+  animation-name: page-vt-enter-back;
+}
+
+@keyframes page-vt-leave {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0.988);
+  }
+}
+
+@keyframes page-vt-leave-back {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(1.012);
+  }
+}
+
+@keyframes page-vt-enter {
+  from {
+    opacity: 0;
+    transform: scale(1.012);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes page-vt-enter-back {
+  from {
+    opacity: 0;
+    transform: scale(0.988);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 首页翻页过渡：滚动先归位，再让新一页内容淡入上浮，避免硬切造成的闪屏 */
+html.is-page-turn {
+  .sakura-home-layout {
+    animation: page-turn-layout 0.44s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+    will-change: opacity, transform;
+  }
+
+  .sakura-post-list {
+    animation: page-turn-list 0.54s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+    will-change: opacity, transform;
+  }
+}
+
+/* 封面图懒加载，翻页瞬间先给一层底色，避免空白块硬闪 */
+.sakura-post-list .sakura-image-card-img {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+@keyframes page-turn-layout {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes page-turn-list {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.is-page-turn .sakura-home-layout,
+  html.is-page-turn .sakura-post-list {
+    animation: none !important;
+  }
+}

@@ -7,7 +7,9 @@ const BUILD_DONE_MARKERS = [
   '[HOOK] build:after done',
   'RSS Feed Files',
 ]
-const GRACE_MS = 800
+// 结束标记出现时 SSG 可能仍在写文件，留足收尾时间再结束进程，
+// 否则会出现 dist 资源未更新（旧 hash）的情况
+const GRACE_MS = 8000
 const HEARTBEAT_MS = 45_000
 const MAX_MS = 20 * 60 * 1000
 

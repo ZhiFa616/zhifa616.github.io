@@ -1,0 +1,3 @@
+# 旧的默认“关于”页跳转到站内关于文章
+/about /posts/about 301
+/about/ /posts/about 301
